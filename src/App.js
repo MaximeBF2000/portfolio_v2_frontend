@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { GeneralProvider } from "./context/AppState"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+// Components imports
+import Header from "./components/Header"
+import Nav from "./components/Nav"
+import AboutText from "./components/AboutText"
+import Stat from "./components/Stat"
+import Prestation from "./components/Prestation"
 
 function App() {
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <GeneralProvider>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <Stat />
+          <Prestation />
+        </Route>
+        <Route exact path="/about" >
+          <AboutText />
+        </Route>
+      </Switch>
+    </Router>
+    </GeneralProvider>
+  )
 }
 
-export default App;
+export default App

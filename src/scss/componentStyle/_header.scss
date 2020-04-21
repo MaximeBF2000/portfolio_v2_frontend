@@ -1,0 +1,120 @@
+header{
+  padding: $navHeight + 1rem;
+  width: 100%;
+  height: $headerHeight;
+  background-image: url("../../assets/img_header.jpg");
+  background-size: cover;
+  color: $grey;
+  font-family: $ff-secondary;
+  font-weight: 900;
+  text-shadow: 1px 1px 10px black;
+  display: flex;
+  align-items: center;
+
+  img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+  }
+
+  .header_presentation{
+    margin-left: 2rem;
+  }
+
+  .typed_status{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    
+    h1{
+      font-size: 2.5rem;
+      min-height: 2.5rem;
+    }
+    .typed-cursor{
+      height: 100%;
+      font-size: 2.5rem;
+    }
+  }
+
+  h2{
+    font-size: 1.7rem;
+    font-weight: 450;
+  }
+
+  .socials{
+    margin-top: 1.5rem;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+    .social_icon{
+      @extend .center;
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      font-size: 1.8rem;
+      cursor: pointer;
+
+      &::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 94%;
+        border: solid transparent;
+        border-width: .5rem;
+        border-bottom-color: rgba($black, .7);
+        transform-origin: top left;
+        transform: scale(0) translateX(-50%);
+      }
+
+      &::after{
+        content: attr(data-tooltip);
+        font-weight: normal;
+        font-size: 1rem;
+        position: absolute;
+        left: 50%;
+        top: 150%;
+        background-color: rgba($black, .7);
+        padding: .3rem .8rem;
+        border-radius: .25rem;
+        transform-origin: top left;
+        transform: scale(0) translateX(-50%);
+      }
+
+      &:hover{
+        color: $white;
+
+        &::after, &::before{
+          transform: scale(1) translateX(-50%);
+        }
+      }
+    }
+  }
+}
+
+
+// RESPONSIVE
+
+@media(max-width: 950px){
+  header{
+    .typed_status h1{
+      font-size: 2rem;
+      min-height: 2rem;
+    }
+    h2{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media(max-width: 850px){
+  header{
+    .typed_status h1{
+      font-size: 1.7rem;
+      min-height: 1.7rem;
+    }
+    h2{
+      font-size: 1.3rem;
+    }
+  }
+}

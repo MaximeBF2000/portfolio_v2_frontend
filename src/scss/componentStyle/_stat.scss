@@ -1,0 +1,29 @@
+section#stat{
+  margin-top: 100vh - $headerHeight;
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .text{
+      @extend .center;
+
+      h2{
+        margin-bottom: 2rem;
+        font-family: $ff-secondary;
+      }
+      ul{
+        width: 400px;
+        list-style: disc;
+
+        li{
+          margin: .5rem 0;
+        }
+      }
+    }
+    
+    img{
+      max-width: 500px;
+    }
+  }
+}

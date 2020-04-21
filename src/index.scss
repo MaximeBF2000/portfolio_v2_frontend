@@ -1,0 +1,14 @@
+@import "./scss/config";
+@import "./scss/utils";
+@import "./scss/setup";
+
+body{
+  background-color: $white;
+  color: $black;
+}
+
+@import "./scss/componentStyle/header";
+@import "./scss/componentStyle/nav";
+@import "./scss/componentStyle/stat";
+@import "./scss/componentStyle/prestation";
+@import "./scss/componentStyle/aboutText";
