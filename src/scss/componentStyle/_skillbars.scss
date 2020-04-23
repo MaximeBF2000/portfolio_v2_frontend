@@ -1,0 +1,41 @@
+section#skillbars{
+  .grid{
+    width: 80%;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 5rem;
+    margin-top: 5rem;
+  }
+
+  .skillbar{
+    position: relative;
+    background-color: $grey;
+    height: 2rem;
+    border-radius: .25rem;
+    overflow: hidden;
+    color: $white;
+    font-weight: 700;
+
+    .skillbar_title{
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: .3rem .6rem;
+      background-color: rgba($black, .1);
+    }
+
+    .skillbar_bar{
+      position: absolute;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 1rem;
+    }
+  }
+}

@@ -9,6 +9,7 @@ import Nav from "./components/Nav"
 import AboutText from "./components/AboutText"
 import Stat from "./components/Stat"
 import Prestation from "./components/Prestation"
+import Skillbars from "./components/Skillbars"
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
         </Route>
         <Route exact path="/about" >
           <AboutText />
+          <Skillbars />
         </Route>
       </Switch>
     </Router>

@@ -31,3 +31,27 @@ ul{
 a, button{
   all: unset;
 }
+
+.title_deco{
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  margin: 2rem auto;
+  font-family: $ff-secondary;
+
+  &::before, &::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba($black, .7);
+  }
+  &::before{
+    right: 110%;
+  }
+  &::after{
+    left: 110%;
+  }
+}

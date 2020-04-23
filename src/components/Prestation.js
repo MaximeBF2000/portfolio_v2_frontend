@@ -5,7 +5,7 @@ import { MdPhoneIphone } from "react-icons/md"
 export default function Prestation() {
   return (
     <section id="prestation">
-      <h2>Prestations</h2>
+      <h2 className="title_deco">Prestations</h2>
       <div className="grid">
         <div className="grid_el">
           <FaLaptopCode className="icon"/>

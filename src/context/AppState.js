@@ -3,7 +3,39 @@ import AppReducer from "./AppReducer"
 
 const initialState = {
   projects: [],
-  skills: []
+  skills: [
+    {
+      name: "HTML5 / CSS3",
+      color: "#2D7DD2",
+      level: 90,
+      is_white: true
+    },
+    {
+      name: "Javascript",
+      color: "#f2df11",
+      level: 88
+    },
+    {
+      name: "ReactJS",
+      color: "#27DCFA",
+      level: 60
+    },
+    {
+      name: "Node JS",
+      color: "#3e6e14",
+      level: 70
+    },
+    {
+      name: "MongoDB",
+      color: "#4DA14B",
+      level: 90
+    },
+    {
+      name: "SASS",
+      color: "slateblue",
+      level: 75,
+    }
+  ]
 }
 
 export const GeneralContext = createContext(initialState)
