@@ -95,26 +95,53 @@ header{
 
 // RESPONSIVE
 
-@media(max-width: 950px){
+@media(max-width: $bp-mobile){
   header{
-    .typed_status h1{
-      font-size: 2rem;
-      min-height: 2rem;
-    }
-    h2{
-      font-size: 1.4rem;
+    padding: 0;
+    padding-top: $navHeight;
+    padding-bottom: 3.5rem;
+    flex-direction: column;
+
+    .header_presentation{
+      text-align: center;
+
+      .typed_status h1{
+        font-size: x-large;
+      }
+
+      .typed-cursor{
+        height: 100%;
+        font-size: x-large;
+      }
+
+      h2{
+        font-size: 1rem;
+      }
     }
   }
 }
 
-@media(max-width: 850px){
+@media screen and (max-width: $bp-mobile){
   header{
-    .typed_status h1{
-      font-size: 1.7rem;
-      min-height: 1.7rem;
+    height: auto;
+
+    .header_presentation{
+      margin: 0;
+      width: 100%;
+
+      .typed_status{
+        display: flex;
+        justify-content: center;
+        h1{
+          min-height: 5rem;
+          text-align: center;
+        }
+      }
     }
-    h2{
-      font-size: 1.3rem;
+
+    .socials{
+      width: 100%;
+      justify-content: space-around;
     }
   }
 }

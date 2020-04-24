@@ -7,8 +7,7 @@ const initialState = {
     {
       name: "HTML5 / CSS3",
       color: "#2D7DD2",
-      level: 90,
-      is_white: true
+      level: 90
     },
     {
       name: "Javascript",

@@ -12,7 +12,6 @@ section#prestation{
       @extend .container;
       position: relative;
       padding: 2rem;
-      // border-top: 3px solid $orange;
       background-color: $grey;
 
       &::before{
@@ -47,6 +46,14 @@ section#prestation{
       p{
         text-align: justify;
       }
+    }
+  }
+}
+
+@media(max-width: $bp-mobile){
+  section#prestation{
+    .grid{
+      grid-template-columns: 1fr;
     }
   }
 }

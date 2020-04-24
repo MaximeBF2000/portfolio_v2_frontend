@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skillbar(props) {
   const { skill } = props
-  const { name, color, level, is_white } = skill
+  const { name, color, level } = skill
 
 
   return (

@@ -3,7 +3,7 @@
   width: 100%;
   height: $navHeight;
   padding: 0 1rem;
-  background-color: rgba($black, .4);
+  background-color: rgba($black, .7);
   color: $white;
   display: flex;
   justify-content: space-between;
@@ -52,6 +52,76 @@
       &:hover::after{
         transform: scaleX(1);
       }
+    }
+  }
+
+  .hamburger{
+    display: none;
+    position: absolute;
+    top: 1.8rem;
+    right: 1rem;
+    width: 30px;
+    height: 2px;
+    background-color: $white;
+    border-radius: 1rem;
+
+    &::before, &::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 30px;
+      height: 2px;
+      background-color: $white;
+    }
+    &::before{
+      bottom: 400%;
+    }
+    &::after{
+      top: 400%;
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile){
+  .navbar{
+    height: auto;
+    padding: .8rem 0;
+    align-items: center;
+    flex-direction: column;
+
+    .logo{
+      align-self: flex-start;
+    }
+
+    ul{
+      display: none;
+      margin-top: 2rem;
+      overflow: hidden;
+      flex-direction: column;
+      width: 100%;
+
+      &.open{
+        display: block;
+      }
+
+      a, a li {
+        width: 100%;
+      }
+      a li {
+        margin: 0;
+        padding: 1rem 0;
+        font-size: x-large;
+        text-align: center;
+
+        &:hover{
+          background-color: $white;
+          color: $black;
+        }
+      }
+    }
+    .hamburger{
+      display: block;
+      cursor: pointer;
     }
   }
 }

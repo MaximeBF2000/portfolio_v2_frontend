@@ -20,7 +20,7 @@ export default function Stat() {
             </li>
           </ul>
         </div>
-        <div className="grid_el" data-aos="fade-up" data-aos-duration="1000">
+        <div className="grid_el img" data-aos="fade-up" data-aos-duration="1000">
           <img src={MacAndIphone} alt="Mac and Iphone with website in it"/>
         </div>
       </div>

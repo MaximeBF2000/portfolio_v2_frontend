@@ -1,14 +1,23 @@
 section#stat{
+  width: 100%;
   margin-top: 100vh - $headerHeight;
 
   .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100vw;
 
-    .text{
+    .grid_el{
+      padding: 2rem;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .grid_el.text{
       @extend .center;
 
       h2{
+        text-align: center;
         margin-bottom: 2rem;
         font-family: $ff-secondary;
       }
@@ -22,8 +31,36 @@ section#stat{
       }
     }
     
-    img{
-      max-width: 500px;
+    .grid_el.img{
+      @extend .center;
+
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media(max-width: $bp-mobile){
+  section#stat{
+    .grid{
+      grid-template-columns: 1fr;
+      width: 100vw;
+
+      .grid_el.text{
+        text-align: center;
+
+        h2{
+          font-size: x-large;
+        }
+        ul{
+          margin: 0 auto;
+          font-size: .8rem;
+          text-align: left;
+          list-style: none;
+        }
+      }
     }
   }
 }
