@@ -39,3 +39,16 @@ section#skillbars{
     }
   }
 }
+
+@media screen and (max-width: $bp-mobile){
+  section#skillbars{
+    .title_deco{
+      &::before, &::after{
+        width: 50px;
+      }
+    }
+    .grid{
+      grid-template-columns: 1fr;
+    }
+  }
+}

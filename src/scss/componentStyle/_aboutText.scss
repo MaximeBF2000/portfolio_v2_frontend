@@ -65,3 +65,14 @@ section#aboutText{
     }
   }
 }
+
+@media screen and (max-width: $bp-mobile){
+  section#aboutText{
+    .grid{
+      grid-template-columns: 1fr;
+    }
+    &>.grid{
+      grid-gap: 3rem 0;
+    }
+  }
+}
