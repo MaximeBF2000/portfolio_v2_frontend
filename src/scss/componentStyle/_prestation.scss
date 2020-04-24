@@ -51,8 +51,14 @@ section#prestation{
   }
 }
 
-@media(max-width: $bp-mobile){
+@media screen and (max-width: $bp-mobile){
   section#prestation{
+    .title_deco{
+      &::before, &::after{
+        width: 50px;
+      }
+    }
+
     .grid{
       grid-template-columns: 1fr;
     }
