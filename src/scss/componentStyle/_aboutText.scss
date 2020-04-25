@@ -70,6 +70,12 @@ section#aboutText{
   section#aboutText{
     .grid{
       grid-template-columns: 1fr;
+
+      .title_deco{
+        &::before, &::after{
+          width: 40px;
+        }
+      }
     }
     &>.grid{
       grid-gap: 3rem 0;

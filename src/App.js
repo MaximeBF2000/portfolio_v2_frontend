@@ -10,6 +10,7 @@ import AboutText from "./components/AboutText"
 import Stat from "./components/Stat"
 import Prestation from "./components/Prestation"
 import Skillbars from "./components/Skillbars"
+import Projects from "./components/Projects"
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,9 @@ function App() {
         <Route exact path="/about" >
           <AboutText />
           <Skillbars />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
       </Switch>
     </Router>

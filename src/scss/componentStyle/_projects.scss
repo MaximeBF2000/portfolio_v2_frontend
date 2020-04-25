@@ -1,0 +1,102 @@
+section#projects{
+  padding-top: $navHeight;
+  @extend .container;
+
+  .text_block{
+    @extend .container;
+    i{
+      font-size: .9rem;
+      text-align: center;
+    }
+  }
+
+  .grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 5rem 0;
+
+    .grid_el{
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      background-color: $grey;
+      border-radius: 1rem;
+      overflow: hidden;
+      padding-bottom: .8rem;
+
+      &:hover{
+        img{
+          transform: scale(1.3);
+          filter: blur(1px);
+        }
+      }
+
+      .img{
+        overflow: hidden;
+        height: 200px;
+      }
+      .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .4s;
+      }
+      .text{
+        margin-top: 1rem;
+        padding: 0 2rem;
+
+        h3{
+          text-align: center;
+          margin-bottom: 1rem;
+          white-space: nowrap;
+        }
+        p{
+          font-size: small;
+          margin-bottom: 1rem;
+          height: 3rem;
+        }
+        .tags{
+          margin-top: 2rem;
+          display: flex;
+          flex-flow: wrap;
+          justify-content: flex-start;
+
+          .tag{
+            font-size: medium;
+            background-color: $orange;
+            color: $white;
+            margin: .3rem 0;
+            margin-right: .5rem;
+            padding: .3rem .5rem;
+            border-radius: .25rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile){
+  section#projects{
+    .title_deco{
+      &::before, &::after{
+        content: unset;
+      }
+    }
+
+    .grid{
+      grid-template-columns: 1fr;
+
+      .text{
+        h3{
+          font-size: 1rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
