@@ -78,6 +78,14 @@ section#projects{
   }
 }
 
+@media (max-width: 1000px){
+  section#projects{
+    .grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile){
   section#projects{
     .title_deco{

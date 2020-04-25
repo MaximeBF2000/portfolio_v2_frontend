@@ -18,6 +18,14 @@ section#skillbars{
     color: $white;
     font-weight: 700;
 
+    .skillbar_number{
+      position: absolute;
+      top: 50%;
+      left: calc(100% + .5rem);
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+
     .skillbar_title{
       z-index: 1;
       position: absolute;
@@ -40,18 +48,20 @@ section#skillbars{
   }
 }
 
+@media (max-width: 1000px){
+  section#skillbars{
+    .grid{
+      width: 90%;
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile){
   section#skillbars{
     .title_deco{
       &::before, &::after{
         width: 40px;
       }
-      // &::before{
-      //   right: 105%;
-      // }
-      // &::after{
-      //   left: 105%;
-      // }
     }
     .grid{
       grid-template-columns: 1fr;

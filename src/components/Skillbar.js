@@ -7,11 +7,14 @@ export default function Skillbar(props) {
 
   return (
     <div className="skillbar">
-      <div className="skillbar_title">{name.toUpperCase()}</div>
+      <div className="skillbar_title">
+        {name.toUpperCase()}
+        <div className="skillbar_number">{level}%</div>
+      </div>
       <div className="skillbar_bar" style={{
         width: level+"%",
         backgroundColor: color
-      }}>{level}%</div>
+      }}></div>
     </div>
   )
 }

@@ -7,7 +7,7 @@ export default function Stat() {
       <div className="grid">
         <div className="grid_el text">
           <h2>Comment le web peut vous aider ?</h2>
-          <i>(Chiffres inventées pour le moment)</i> {/* A MODIFIER EN CHIFFRE VARIABLES */}
+          <i>(Ces chiffres peuvent évoluer avec le temps)</i> {/* A MODIFIER EN CHIFFRE VARIABLES */}
           <ul>
             <li>
               <b>75% des gens</b> utilisent internet sur Terre

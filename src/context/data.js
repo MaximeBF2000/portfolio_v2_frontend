@@ -63,6 +63,6 @@ export const skills = [
   {
     name: "Adobe XD",
     color: "#e835e2",
-    level: 34,
+    level: 36,
   },
 ]

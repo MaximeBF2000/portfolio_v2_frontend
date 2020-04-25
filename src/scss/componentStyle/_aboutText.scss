@@ -66,6 +66,16 @@ section#aboutText{
   }
 }
 
+@media (max-width: 1000px){
+  section#aboutText{
+    .grid{
+      .grid_el.text{
+        padding: 3rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile){
   section#aboutText{
     .grid{
