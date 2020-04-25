@@ -85,6 +85,9 @@ section#projects{
         content: unset;
       }
     }
+    .text_block i{
+      width: 200px;
+    }
 
     .grid{
       grid-template-columns: 1fr;
