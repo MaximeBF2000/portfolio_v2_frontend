@@ -44,8 +44,14 @@ section#skillbars{
   section#skillbars{
     .title_deco{
       &::before, &::after{
-        width: 50px;
+        width: 40px;
       }
+      // &::before{
+      //   right: 105%;
+      // }
+      // &::after{
+      //   left: 105%;
+      // }
     }
     .grid{
       grid-template-columns: 1fr;
