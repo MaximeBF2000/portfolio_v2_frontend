@@ -51,6 +51,30 @@ section#prestation{
   }
 }
 
+@media screen and (max-width: $bp-laptop){
+  section#prestation{
+    .grid{
+      grid-template-columns: repeat(2, 1fr);
+
+      .grid_el:nth-child(3){
+        
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-tablet){
+  section#prestation{
+    .grid{
+      grid-gap: 1rem;
+      
+      .grid_el{
+
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile){
   section#prestation{
     padding: 5rem 2rem;
@@ -60,8 +84,8 @@ section#prestation{
       }
     }
 
-    .grid{
-      grid-template-columns: 1fr;
-    }
+    // .grid{
+    //   grid-template-columns: 1fr;
+    // }
   }
 }

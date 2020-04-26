@@ -3,8 +3,12 @@ import { Link } from "react-router-dom"
 
 export default function Nav() {
   const showNav = e => {
-    const ul = e.target.parentNode.childNodes[1]
-    ul.classList.toggle("open")
+    let ul
+    if(e.target.classList.contains("hamburger")){
+      e.target.previousSibling.classList.toggle("open")
+    } else {
+      e.target.parentNode.previousSibling.classList.toggle("open")
+    }
   }
 
   return (
@@ -16,7 +20,11 @@ export default function Nav() {
         <Link to="/projects"><li>Réalisations</li></Link>
         <Link to="/contact"><li>Contact</li></Link>
       </ul>
-      <div className="hamburger" onClick={showNav}></div>
+      <div className="hamburger" onClick={showNav}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
     </nav>
   )
 }

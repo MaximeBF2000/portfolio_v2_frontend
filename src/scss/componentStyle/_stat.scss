@@ -23,7 +23,7 @@ section#stat{
       }
       ul{
         width: 400px;
-        list-style: disc;
+        // list-style: disc;
 
         li{
           margin: .5rem 0;
@@ -42,6 +42,38 @@ section#stat{
   }
 }
 
+@media screen and (max-width: $bp-laptop){
+  section#stat{
+    .grid{
+      .grid_el.text{
+        ul{
+          margin: 0 auto;
+          width: 100%;
+          text-align: left;
+          list-style: none;
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-tablet){
+  section#stat{
+    .grid{
+      grid-template-columns: 1fr;
+
+      .grid_el.text{
+        text-align: center;
+      }
+
+      .grid_el.img{
+        padding: 0 8rem;
+      }
+    }
+  }
+}
+
 @media(max-width: $bp-mobile){
   section#stat{
     .grid{
@@ -49,17 +81,12 @@ section#stat{
       width: 100vw;
 
       .grid_el.text{
-        text-align: center;
 
         h2{
           font-size: x-large;
         }
         ul{
-          margin: 0 auto;
-          width: 100%;
           font-size: .8rem;
-          text-align: left;
-          list-style: none;
         }
       }
     }
