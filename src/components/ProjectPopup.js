@@ -4,6 +4,8 @@ import project_defaultImg from "../assets/img_project/project_default.jpg"
 export default function ProjectPopup({project, setShowFullProject}) {
   const { name, description, img, tags } = project
 
+  console.log(tags)
+
   return (
     <div className="project_popup">
       <div className="popup_exit" onClick={() => setShowFullProject(false)}>x</div>
@@ -15,7 +17,7 @@ export default function ProjectPopup({project, setShowFullProject}) {
             {description}
           </p>
           <div className="tags">
-            {tags.forEach(tag => (
+            {tags.map(tag => (
               <div className="tag">{tag}</div>
             ))}
           </div>

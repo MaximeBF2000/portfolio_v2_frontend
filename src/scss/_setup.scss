@@ -57,3 +57,20 @@ a, button{
     left: 110%;
   }
 }
+
+.tags{
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+
+  .tag{
+    font-size: medium;
+    background-color: $orange;
+    color: $white;
+    margin: .3rem 0;
+    margin-right: .5rem;
+    padding: .3rem .5rem;
+    border-radius: .25rem;
+  }
+}
