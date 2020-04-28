@@ -1,26 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 
+/*
+ONCLICK ON LINK : CLOSE NAV (MOBILE)
+*/
+
 export default function Nav() {
-  const showNav = e => {
-    let ul
-    if(e.target.classList.contains("hamburger")){
-      e.target.previousSibling.classList.toggle("open")
-    } else {
-      e.target.parentNode.previousSibling.classList.toggle("open")
-    }
-  }
+  const [navShow, setNavShow] = useState(false)
+  const unshowNav = () => setNavShow(false)
 
   return (
     <nav className="navbar">
-      <div className="logo"><Link to="/">MBF</Link></div>
-      <ul>
-        <Link to="/"><li>Accueil</li></Link>
-        <Link to="/about"><li>A propos</li></Link>
-        <Link to="/projects"><li>Réalisations</li></Link>
-        <Link to="/contact"><li>Contact</li></Link>
+      <div className="logo"><Link to="/" onClick={unshowNav}>MBF</Link></div>
+      <ul className={navShow && "open"}>
+        <Link to="/" onClick={unshowNav}><li>Accueil</li></Link>
+        <Link to="/about" onClick={unshowNav}><li>A propos</li></Link>
+        <Link to="/projects" onClick={unshowNav}><li>Réalisations</li></Link>
+        <Link to="/contact" onClick={unshowNav}><li>Contact</li></Link>
       </ul>
-      <div className="hamburger" onClick={showNav}>
+      <div className="hamburger" onClick={() => setNavShow(!navShow)}>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
