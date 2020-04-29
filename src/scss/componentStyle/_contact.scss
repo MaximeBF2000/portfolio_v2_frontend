@@ -1,3 +1,93 @@
 section#contact{
-  padding-top: $navHeight;
+  padding: 1rem;
+  padding-top: $navHeight + 1rem;
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .grid_el.contact_form{
+      @extend .center;
+      padding: 2rem;
+
+      .row{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        margin-bottom: 2rem;
+      }
+      .input_group{
+        position: relative;
+        width: 100%;
+
+        .input:focus, .input:not(:empty), .textarea:focus, .textarea:not(:empty){
+          &+.label{
+            transform: translateY(-1.7rem);
+          }
+        }
+    
+        .input{
+          width: 100%;
+          padding: .2rem .5rem;
+          outline: none;
+        }
+        .label{
+          position: absolute;
+          left: .7rem;
+          bottom: .2rem;
+          pointer-events: none;
+          transform: translateY(0);
+        }
+        &.message {
+          .textarea{
+            width: 100%;
+            height: 200px;
+            padding: .2rem .5rem;
+            outline: none;
+            resize: none;
+          }
+          .label{
+            bottom: unset;
+            top: .2rem;
+          }
+        }
+      }
+      .submitBtn{
+        cursor: pointer;
+        background-color: $orange;
+        color: $white;
+        padding: .7rem 5rem;
+      }
+    }
+
+    .grid_el.infos{
+      @extend .center;
+      // border: solid thin $black;
+
+      .info{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border-left: 3px solid $orange;
+        margin: 1rem 0;
+        background-color: lighten($grey, 5%);
+
+
+        &:hover{
+          border-left: 4px solid $orange;
+        }
+
+        .logo{
+          font-size: xx-large;
+          margin-right: 1rem;
+        }
+        .link{
+          cursor: pointer;
+          color: $orange;
+        }
+      }
+    }
+  }
+  
 }

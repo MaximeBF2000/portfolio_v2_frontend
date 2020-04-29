@@ -92,3 +92,15 @@ export const skills = [
     level: 36,
   },
 ]
+
+/* FAQ __________________________________________________________________________________  */
+export const faq_content = [
+  {
+    question: "Pourquoi faire appel à un développeur ?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi accusamus quis nostrum adipisci eaque, corporis esse sequi iusto architecto eum in tenetur dolore dicta."
+  },
+  {
+    question: "Combien ça coûte de créer un site web ?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi accusamus quis nostrum adipisci eaque, corporis esse sequi iusto architecto eum in tenetur dolore dicta."
+  }
+]
