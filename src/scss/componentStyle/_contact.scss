@@ -1,5 +1,5 @@
 section#contact{
-  padding: 1rem;
+  padding: 0 1rem;
   padding-top: $navHeight + 1rem;
 
   .grid{
@@ -58,6 +58,7 @@ section#contact{
         background-color: $orange;
         color: $white;
         padding: .7rem 5rem;
+        margin-top: 1rem;
       }
     }
 
