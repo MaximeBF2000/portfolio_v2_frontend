@@ -14,3 +14,11 @@
     font-size: .9rem;
   }
 }
+
+@media screen and (max-width: $bp-mobile){
+  .faq{
+    .answer{
+      max-width: 100%;
+    }
+  }
+}
