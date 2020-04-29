@@ -96,6 +96,16 @@ section#contact{
   section#contact{
     .grid{
       grid-template-columns: 1fr;
+
+      .grid_el.contact_form{
+        .row{
+          grid-template-columns: 1fr;
+
+          .input_group{
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
     }
   }
 }
