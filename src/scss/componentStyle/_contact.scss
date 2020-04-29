@@ -88,6 +88,13 @@ section#contact{
         }
       }
     }
+  }  
+}
+
+@media screen and (max-width: $bp-tablet){
+  section#contact{
+    .grid{
+      grid-template-columns: 1fr;
+    }
   }
-  
 }
