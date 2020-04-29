@@ -13,6 +13,7 @@ section#prestation{
       position: relative;
       padding: 2rem;
       background-color: $grey;
+      transform: translateY(0);
 
       &::before{
         content: "";
@@ -27,10 +28,11 @@ section#prestation{
 
       &:hover{
         box-shadow: 0 0 5px grey;
+        transform: translateY(-3px);
 
-        &::before{
-          transform: scaleY(1.3);
-        }
+        // &::before{
+        //   transform: scaleY(1.3);
+        // }
       }
 
       .icon{

@@ -1,4 +1,6 @@
 import img_project_moi from "../assets/img_project/vitrine_moi_v1.png"
+import img_devJobLister from "../assets/img_project/devJobLister.jpg"
+import img_leafletMap from "../assets/img_project/leafletMap.png"
 import { v4 as uuid } from 'uuid'
 
 /* PROJECTS ________________________________________________________________________________  */
@@ -21,17 +23,27 @@ export const projects = [
     `,
     img: "",
     tags: ["Javascript", "Open source", "Vanilla JS"],
-    link: ""
+    link: "https://autowritejs.netlify.app"
   },
   {
     id: uuid(),
     name: "DevJobLister",
     description: `
-      Job listing application for developpers, using the MERN stack
+      Application de recherches de job pour les développeur (utilisation du MERNstack)
     `,
-    img: "",
+    img: img_devJobLister,
     tags: ["Javascript", "MERNstack", "React JS", "Node JS", "MongoDB"],
     link: ""
+  },
+  {
+    id: uuid(),
+    name: "Where Am I",
+    description: `
+      Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map
+    `,
+    img: img_leafletMap,
+    tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
+    link: "https://leaflet-get-coords.netlify.app/"
   }
 ]
 
