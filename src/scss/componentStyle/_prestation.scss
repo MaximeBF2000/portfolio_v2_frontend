@@ -78,11 +78,6 @@ section#prestation{
 @media screen and (max-width: $bp-mobile){
   section#prestation{
     padding: 5rem 2rem;
-    .title_deco{
-      &::before, &::after{
-        width: 50px;
-      }
-    }
 
     .grid{
       grid-template-columns: 1fr;

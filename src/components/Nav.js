@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 
-/*
-ONCLICK ON LINK : CLOSE NAV (MOBILE)
-*/
 
 export default function Nav() {
   const [navShow, setNavShow] = useState(false)
@@ -12,7 +9,7 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div className="logo"><Link to="/" onClick={unshowNav}>MBF</Link></div>
-      <ul className={navShow && "open"}>
+      <ul className={navShow ? "open" : ""}>
         <Link to="/" onClick={unshowNav}><li>Accueil</li></Link>
         <Link to="/about" onClick={unshowNav}><li>A propos</li></Link>
         <Link to="/projects" onClick={unshowNav}><li>Réalisations</li></Link>

@@ -10,7 +10,8 @@ export const projects = [
       Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
     `,
     img: img_project_moi,
-    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"]
+    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
+    link: "https://maxime-bounaasferret-v1.netlify.app/"
   },
   {
     id: uuid(),
@@ -19,7 +20,8 @@ export const projects = [
       Open source javascript lightweight library for creating typing effect
     `,
     img: "",
-    tags: ["Javascript", "Open source", "Vanilla JS"]
+    tags: ["Javascript", "Open source", "Vanilla JS"],
+    link: ""
   },
   {
     id: uuid(),
@@ -28,7 +30,8 @@ export const projects = [
       Job listing application for developpers, using the MERN stack
     `,
     img: "",
-    tags: ["Javascript", "MERNstack", "React JS", "Node JS", "MongoDB"]
+    tags: ["Javascript", "MERNstack", "React JS", "Node JS", "MongoDB"],
+    link: ""
   }
 ]
 

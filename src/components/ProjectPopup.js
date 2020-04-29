@@ -2,9 +2,7 @@ import React from 'react'
 import project_defaultImg from "../assets/img_project/project_default.jpg"
 
 export default function ProjectPopup({project, setShowFullProject}) {
-  const { name, description, img, tags } = project
-
-  console.log(tags)
+  const { name, description, img, tags, link } = project
 
   return (
     <div className="project_popup">
@@ -15,6 +13,9 @@ export default function ProjectPopup({project, setShowFullProject}) {
           <h3>{name}</h3>
           <p>
             {description}
+          </p>
+          <p className={link.length > 0 ? "link" : "emptyLink" }>
+            <a href={link} target="blank">Click here to access</a>
           </p>
           <div className="tags">
             {tags.map(tag => (

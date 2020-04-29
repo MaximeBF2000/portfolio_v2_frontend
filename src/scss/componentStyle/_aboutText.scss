@@ -76,15 +76,23 @@ section#aboutText{
   }
 }
 
+@media screen and (max-width: $bp-tablet){
+  section#aboutText{
+    .grid{
+      .grid_el.text{
+        padding: 1.5rem;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $bp-mobile){
   section#aboutText{
     .grid{
       grid-template-columns: 1fr;
 
-      .title_deco{
-        &::before, &::after{
-          width: 40px;
-        }
+      .grid_el.text{
+        padding: 0;
       }
     }
     &>.grid{

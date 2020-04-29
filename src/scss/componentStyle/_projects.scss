@@ -73,11 +73,6 @@ section#projects{
 
 @media screen and (max-width: $bp-mobile){
   section#projects{
-    .title_deco{
-      &::before, &::after{
-        content: unset;
-      }
-    }
     .text_block i{
       width: 200px;
     }

@@ -74,3 +74,19 @@ a, button{
     border-radius: .25rem;
   }
 }
+
+@media screen and (max-width: $bp-tablet){
+  .title_deco{
+    &::before, &::after{
+      width: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile){
+  .title_deco{
+    &::before, &::after{
+      content: unset;
+    }
+  }
+}
