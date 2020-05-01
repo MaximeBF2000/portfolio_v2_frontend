@@ -24,7 +24,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!-- START Netlify form -->
-      <form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
+      <form name="contactForm" data-netlify="true" netlify-honeypot="bot-field" method="POST" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>

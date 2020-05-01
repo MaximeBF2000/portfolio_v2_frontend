@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactForm() {
   return (
-    <form action="/" className="grid_el contact_form" method="POST" data-netlify="true">
+    <form className="grid_el contact_form" method="POST" data-netlify="true">
       <input type="hidden" name="contactForm" value="contact" />
       <div className="row">
         <div className="input_group name">
