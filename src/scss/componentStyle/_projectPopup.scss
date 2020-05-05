@@ -42,22 +42,36 @@
         margin-bottom: 1rem;
       }
 
-      .link{
+      .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
         margin-top: 1rem;
-        cursor: pointer;
-        color: darken($orange, 20%);
+        width: fit-content;
 
-        &:hover{
-          color: $orange;
+        .link{
+          cursor: pointer;
+          color: darken($orange, 20%);
+  
+          &:hover{
+            color: $orange;
+          }
+  
+          &.gitLink{
+            color: #185ac4;
+            &:hover{
+              color: lighten(#4287f5, 10%);
+            }
+          }
         }
-      }
-      .emptyLink{
-        cursor: not-allowed;
-        margin-top: 1rem;
-        color: darken($grey, 5%);
-        font-style: italic;
-        a{
-          pointer-events: none;
+
+        .emptyLink{
+          cursor: not-allowed;
+          color: darken($grey, 5%);
+          font-style: italic;
+          a{
+            pointer-events: none;
+          }
         }
       }
 

@@ -13,7 +13,8 @@ export const projects = [
     `,
     img: img_project_moi,
     tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
-    link: "https://maxime-bounaasferret-v1.netlify.app/"
+    link: "https://maxime-bounaasferret-v1.netlify.app/",
+    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
   },
   {
     id: uuid(),
@@ -23,7 +24,8 @@ export const projects = [
     `,
     img: "",
     tags: ["Javascript", "Open source", "Vanilla JS"],
-    link: "https://autowritejs.netlify.app"
+    link: "https://autowritejs.netlify.app",
+    github: "https://github.com/MaximeBF2000/autoWriteJS"
   },
   {
     id: uuid(),
@@ -33,7 +35,8 @@ export const projects = [
     `,
     img: img_devJobLister,
     tags: ["Javascript", "MERNstack", "React JS", "Node JS", "MongoDB"],
-    link: ""
+    link: "",
+    github: "https://github.com/MaximeBF2000/devJobLister_MERN"
   },
   {
     id: uuid(),
@@ -43,7 +46,8 @@ export const projects = [
     `,
     img: img_leafletMap,
     tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
-    link: "https://leaflet-get-coords.netlify.app/"
+    link: "https://leaflet-get-coords.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
   }
 ]
 
