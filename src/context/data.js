@@ -1,6 +1,8 @@
 import img_project_moi from "../assets/img_project/vitrine_moi_v1.png"
+import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
+import img_djangoListApp from "../assets/img_project/django_list_app.jpg"
 import { v4 as uuid } from 'uuid'
 
 /* PROJECTS ________________________________________________________________________________  */
@@ -20,9 +22,9 @@ export const projects = [
     id: uuid(),
     name: "AutowriteJS",
     description: `
-      Open source javascript lightweight library for creating typing effect
+      Librairie javascript open source permettant de créer un texte animé
     `,
-    img: "",
+    img: img_autowriteJs,
     tags: ["Javascript", "Open source", "Vanilla JS"],
     link: "https://autowritejs.netlify.app",
     github: "https://github.com/MaximeBF2000/autoWriteJS"
@@ -48,6 +50,17 @@ export const projects = [
     tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
     link: "https://leaflet-get-coords.netlify.app/",
     github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
+  },
+  {
+    id: uuid(),
+    name: "Planning list",
+    description: `
+      Application permettant de créer des listes de tâches pour rester organisé et productif
+    `,
+    img: img_djangoListApp,
+    tags: ["Python", "Django", "Restful API", "SQL", "SQLite"],
+    link: "",
+    github: "https://github.com/MaximeBF2000/django_list_app"
   }
 ]
 
