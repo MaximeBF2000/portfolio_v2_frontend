@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
+import logo from "../assets/logo_mbf_v1.svg"
 
 
 export default function Nav() {
@@ -8,7 +9,11 @@ export default function Nav() {
 
   return (
     <nav className="navbar">
-      <div className="logo"><Link to="/" onClick={unshowNav}>MBF</Link></div>
+      <div className="logo">
+        <Link to="/" onClick={unshowNav} className="center">
+          <img src={logo} style={{ width: "75px" }}/>
+        </Link>
+      </div>
       <ul className={navShow ? "open" : ""}>
         <Link to="/" onClick={unshowNav}><li>Accueil</li></Link>
         <Link to="/about" onClick={unshowNav}><li>A propos</li></Link>
