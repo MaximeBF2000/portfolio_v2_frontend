@@ -1,4 +1,5 @@
-import img_project_moi from "../assets/img_project/vitrine_moi_v1.png"
+import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
+import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
@@ -9,25 +10,25 @@ import { v4 as uuid } from 'uuid'
 export const projects = [
   {
     id: uuid(),
-    name: "Maxime BOUNAAS-FERRET V1",
+    name: "Maxime BOUNAAS-FERRET V2",
     description: `
-      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
+    Deuxième version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
     `,
-    img: img_project_moi,
-    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
-    link: "https://maxime-bounaasferret-v1.netlify.app/",
-    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
+    img: img_project_moi_v2,
+    tags: ["ReactJS", "State managment", "Context API", "SASS"],
+    link: "https://maxime-bounaasferret-v2.netlify.app/",
+    github: "https://github.com/MaximeBF2000/portfolio_v2_frontend"
   },
   {
     id: uuid(),
-    name: "AutowriteJS",
+    name: "Where Am I",
     description: `
-      Librairie javascript open source permettant de créer un texte animé
+      Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map
     `,
-    img: img_autowriteJs,
-    tags: ["Javascript", "Open source", "Vanilla JS"],
-    link: "https://autowritejs.netlify.app",
-    github: "https://github.com/MaximeBF2000/autoWriteJS"
+    img: img_leafletMap,
+    tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
+    link: "https://leaflet-get-coords.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
   },
   {
     id: uuid(),
@@ -42,14 +43,25 @@ export const projects = [
   },
   {
     id: uuid(),
-    name: "Where Am I",
+    name: "AutowriteJS",
     description: `
-      Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map
+      Librairie javascript open source permettant de créer un texte animé
     `,
-    img: img_leafletMap,
-    tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
-    link: "https://leaflet-get-coords.netlify.app/",
-    github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
+    img: img_autowriteJs,
+    tags: ["Javascript", "Open source", "Vanilla JS"],
+    link: "https://autowritejs.netlify.app",
+    github: "https://github.com/MaximeBF2000/autoWriteJS"
+  },
+  {
+    id: uuid(),
+    name: "Maxime BOUNAAS-FERRET V1",
+    description: `
+      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
+    `,
+    img: img_project_moi_v1,
+    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
+    link: "https://maxime-bounaasferret-v1.netlify.app/",
+    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
   },
   {
     id: uuid(),
@@ -82,7 +94,7 @@ export const skills = [
     id: uuid(),
     name: "ReactJS",
     color: "#27DCFA",
-    level: 65
+    level: 68
   },
   {
     id: uuid(),
@@ -106,7 +118,7 @@ export const skills = [
     id: uuid(),
     name: "Adobe XD",
     color: "#e835e2",
-    level: 36,
+    level: 40,
   },
 ]
 
