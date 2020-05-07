@@ -42,3 +42,20 @@ section#parcours{
     }
   }
 }
+
+@media screen and (max-width: $bp-tablet){
+  section#parcours{
+    .parcours_list{
+      width: 75%;
+    }
+
+    .parcours_listItem{
+      margin: 5rem auto;
+
+      .date{
+        left: 0;
+        top: -1.5rem;
+      }
+    }
+  }
+}
