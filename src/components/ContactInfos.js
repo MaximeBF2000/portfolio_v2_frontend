@@ -19,7 +19,7 @@ export default function ContactInfos() {
           <IoIosMail className="logo" />
           <div className="content">
             <span className="text">Mail : </span>
-            <a className="link" href="!" target="blank">maxime.bounaas@gmail.com</a>
+            <a className="link" href="mailto:maxime.bounaas@gmail.com" target="blank">maxime.bounaas@gmail.com</a>
           </div>
         </div>
 
