@@ -132,7 +132,7 @@ export const parcours_step = [
   },
   {
     date: "2018-2019",
-    title: "Développeur Front-end / Marketing - FoodtrucksOnline",
+    title: "Développeur Frontend / Marketing - Foodtrucks Online",
     description: "Développeur frontend pour le site web / application foodtrucksOnline. Apprentissage de la gestion de projet en équipe, de la création et gestion d'un évènement, du préprocesseur CSS SASS, et d'outils de travails tel que git, github, trello..."
   },
   {

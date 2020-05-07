@@ -59,3 +59,13 @@ section#parcours{
     }
   }
 }
+
+@media screen and (max-width: $bp-mobile){
+  section#parcours{
+    .parcours_listItem{
+      h3.title{
+        font-size: 1rem;
+      }
+    }
+  }
+}
