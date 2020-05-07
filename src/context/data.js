@@ -16,7 +16,7 @@ export const projects = [
     `,
     img: img_project_moi_v2,
     tags: ["ReactJS", "State managment", "Context API", "SASS"],
-    link: "https://maxime-bounaasferret-v2.netlify.app/",
+    link: "https://maxime-bf.netlify.app/",
     github: "https://github.com/MaximeBF2000/portfolio_v2_frontend"
   },
   {
