@@ -122,6 +122,27 @@ export const skills = [
   },
 ]
 
+
+/* PARCOURS ________________________________________________________________________________  */
+export const parcours_step = [
+  {
+    date: "2019-2020",
+    title: "Formation Développeur web en ligne",
+    description: "Apprentissage en ligne du développement web fullstack en profondeur avec Javascript, ReactJS, NodeJS et MongoDB. Développement de projets et auto apprentissage + expérience en freelance"
+  },
+  {
+    date: "2018-2019",
+    title: "Développeur Front-end / Marketing - FoodtrucksOnline",
+    description: "Développeur frontend pour le site web / application foodtrucksOnline. Apprentissage de la gestion de projet en équipe, de la création et gestion d'un évènement, du préprocesseur CSS SASS, et d'outils de travails tel que git, github, trello..."
+  },
+  {
+    date: "2018-2019",
+    title: "Bachelor Informatique général - Ynov Lyon",
+    description: "1ère année de bachelor informatique général à Ynov Lyon. Découverte du développement web, apprentissage de la méthode de travail SCRUM, de la gestion de projets et réalisations de 2 applications."
+  }
+]
+
+
 /* FAQ __________________________________________________________________________________  */
 export const faq_content = [
   {

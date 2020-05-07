@@ -1,0 +1,44 @@
+section#parcours{
+  .parcours_list{
+    width: 50%;
+    margin: 4rem auto;
+    border-left: solid 5px $orange;
+    padding-left: 3rem;
+  }
+
+  .parcours_listItem{
+    position: relative;
+    margin-bottom: 4rem;
+
+    &::before{
+      $size: 18px;
+      content: "";
+      position: absolute;
+      left: -3.7rem;
+      top: .3rem;
+      width: $size;
+      height: $size;
+      border-radius: 50%;
+      background-color: darken($orange, 20%);
+      box-shadow: 1px 1px 5px $orange;
+    }
+
+    .date{
+      position: absolute;
+      left: -9rem;
+      top: 0.3rem;
+      font-size: .9rem;
+      font-style: italic;
+    }
+
+    h3.title{
+      font-family: $ff-secondary;
+      margin-bottom: .8rem;
+      font-size: 1.3rem;
+    }
+
+    p.description{
+      font-size: .9rem;
+    }
+  }
+}

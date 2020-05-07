@@ -10,6 +10,7 @@ import AboutText from "./components/AboutText"
 import Stat from "./components/Stat"
 import Prestation from "./components/Prestation"
 import Skillbars from "./components/Skillbars"
+import Parcours from "./components/Parcours"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/about" >
           <AboutText />
           <Skillbars />
+          <Parcours />
         </Route>
         <Route exact path="/projects">
           <Projects />

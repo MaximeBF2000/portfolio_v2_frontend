@@ -61,6 +61,7 @@ section#aboutText{
       }
       p{
         text-align: justify;
+        padding: 0 4rem;
       }
     }
   }
@@ -71,6 +72,10 @@ section#aboutText{
     .grid{
       .grid_el.text{
         padding: 3rem;
+
+        p{
+          padding: 0;
+        }
       }
     }
   }
