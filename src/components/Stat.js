@@ -10,13 +10,13 @@ export default function Stat() {
           <i>(Ces chiffres peuvent évoluer avec le temps)</i> {/* A MODIFIER EN CHIFFRE VARIABLES */}
           <ul>
             <li>
-              <b>75% des gens</b> utilisent internet sur Terre
+              <b>57% de la population mondiale</b> utilise internet
             </li>
             <li>
-              <b>56% des recherches</b> sont faites sur un smartphone
+              <b>65% des recherches Google</b> sont faites sur smartphone
             </li>
             <li>
-              Google est le moteur de recherche <b>utilisé par 82% des utilisateurs d'internet</b>
+              <b>60% des recherches internet</b> sont faites sur Google
             </li>
           </ul>
         </div>

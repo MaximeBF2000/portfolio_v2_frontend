@@ -92,7 +92,7 @@ export const skills = [
   },
   {
     id: uuid(),
-    name: "ReactJS",
+    name: "React JS",
     color: "#27DCFA",
     level: 68
   },
