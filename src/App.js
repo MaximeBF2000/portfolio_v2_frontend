@@ -14,9 +14,16 @@ import Parcours from "./components/Parcours"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
+const deploy_url = "https://maxime-bf.netlify.app"
+
 function App() {
   useEffect(() => {
     AOS.init()
+
+    // FOR NETLIFY DEPLOY
+    window.onbeforeunload = () => {
+      window.location.href = deploy_url
+    }
   }, [])
 
 
@@ -25,6 +32,11 @@ function App() {
     <Router>
       <Nav />
       <Switch>
+        <Route exact path="/">
+          <Header />
+          <Stat />
+          <Prestation />
+        </Route>
         <Route exact path="/about" >
           <AboutText />
           <Skillbars />
@@ -35,12 +47,6 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
-        </Route>
-        {/* Home page at the end for netflify deploy (without an EXACT path) */}
-        <Route path="/">
-          <Header />
-          <Stat />
-          <Prestation />
         </Route>
       </Switch>
     </Router>
