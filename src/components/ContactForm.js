@@ -38,7 +38,7 @@ export default function ContactForm() {
     //   )}
     // </NetlifyForm>
 
-    <form className="grid_el contact_form" method="POST" data-netlify="true">
+    <form name="contactForm" className="grid_el contact_form" method="POST">
       <input type="hidden" name="form-name" value="contactForm" />
       <div className="row">
         <div className="input_group name">
