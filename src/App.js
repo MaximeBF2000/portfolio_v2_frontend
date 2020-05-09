@@ -27,11 +27,6 @@ function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route exact path="/">
-          <Header />
-          <Stat />
-          <Prestation />
-        </Route>
         <Route exact path="/about" >
           <AboutText />
           <Skillbars />
@@ -42,6 +37,12 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        {/* Home page route at the end for netlify deploy + NOT EXACT PATH  */}
+        <Route path="/">
+          <Header />
+          <Stat />
+          <Prestation />
         </Route>
       </Switch>
     </Router>
