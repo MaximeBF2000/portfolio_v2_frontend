@@ -14,16 +14,11 @@ import Parcours from "./components/Parcours"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 
-const deploy_url = "https://maxime-bf.netlify.app"
+// const deploy_url = "https://maxime-bf.netlify.app"
 
 function App() {
   useEffect(() => {
     AOS.init()
-
-    // FOR NETLIFY DEPLOY
-    window.onbeforeunload = () => {
-      window.location.href = deploy_url
-    }
   }, [])
 
 
