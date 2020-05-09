@@ -5,13 +5,16 @@ import logo from "../assets/logo_mbf_v1.svg"
 
 export default function Nav() {
   const [navShow, setNavShow] = useState(false)
-  const unshowNav = () => setNavShow(false)
+  const unshowNav = () => {
+    setNavShow(false)
+    window.scrollTo(0, 0)
+  }
 
   return (
     <nav className="navbar">
       <div className="logo">
         <Link to="/" onClick={unshowNav} className="center">
-          <img src={logo} style={{ width: "75px" }}/>
+          <img src={logo} style={{ width: "75px" }} alt="logo" />
         </Link>
       </div>
       <ul className={navShow ? "open" : ""}>

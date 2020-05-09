@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { GeneralContext } from "../context/AppState"
-import Parcours_step from "./Parcours_step"
+import ParcoursStep from "./ParcoursStep"
 
 export default function Parcours() {
   const { parcours_step } = useContext(GeneralContext)
@@ -9,7 +9,7 @@ export default function Parcours() {
     <section id="parcours">
       <h2 className="title_deco">Mon parcours</h2>
       <ul className="parcours_list">
-        {parcours_step.map(step => <Parcours_step step={step} />)}
+        {parcours_step.map(step => <ParcoursStep step={step} key={Math.random()} />)}
       </ul>
     </section>
   )
