@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { GeneralContext } from "../context/AppState"
 
-import Project from "./Project"
+import Project from "../components/Project"
 
 export default function Projects() {
   const { projects } = useContext(GeneralContext)

@@ -1,7 +1,7 @@
 import React from 'react'
-import Faq from "./Faq"
-import ContactInfos from "./ContactInfos"
-import ContactForm from "./ContactForm"
+import Faq from "../components/Faq"
+import ContactInfos from "../components/ContactInfos"
+import ContactForm from "../components/ContactForm"
 
 export default function Contact() {
   return (
