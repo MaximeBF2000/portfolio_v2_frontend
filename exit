@@ -1,0 +1,341 @@
+[33mcommit 9fdb1af992ecadda75fbdb5f0f68eaf122f53f3e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat May 9 15:28:49 2020 +0200
+
+    fix routing problem with netlify
+
+[33mcommit 76f52999733b4f7bf1b6f43cdd9173efc0afdd80[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat May 9 15:25:38 2020 +0200
+
+    fix routing problem with netlify ?
+
+[33mcommit e572d946935d0adf9ab0ee08637d0c2c4acdb71a[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat May 9 15:17:48 2020 +0200
+
+    fix routing problem with netlify ?
+
+[33mcommit 456d43a7352e5a5996b7816e4e8799ea22abaf9f[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat May 9 15:09:51 2020 +0200
+
+    fix routing problem with netlify
+
+[33mcommit f76d4740ddc9437100804721bb1d4d3c79f7148d[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat May 9 12:54:35 2020 +0200
+
+    added func : scroll to top when link clicked in nav
+
+[33mcommit 13d8babe0eb792a37abc38d1cb74eebd34a34876[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 18:51:41 2020 +0200
+
+    added aos effect on parcours
+
+[33mcommit 1d838aaf80195a7df8e802c5fb40c0c6bd491909[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 17:48:32 2020 +0200
+
+    change site name
+
+[33mcommit e33d6ea9a534e9dc2d935ac99d4f8035b22a26cb[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 17:07:02 2020 +0200
+
+    sm update
+
+[33mcommit 823c04a587f1260942c9d7103db68b29b44a27f7[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 17:05:27 2020 +0200
+
+    design update on parcours section in about page
+
+[33mcommit 350935af9a3392b950e761533ab26f90e226ecd2[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 16:52:03 2020 +0200
+
+    sm update
+
+[33mcommit 00eae987b4552d8109e7674b41700dead451bd40[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 16:50:56 2020 +0200
+
+    sm update
+
+[33mcommit 517637bc27f8684213646d12a4ace1a20ed66605[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 16:38:07 2020 +0200
+
+    sm update
+
+[33mcommit f0824b52e57935ea9a584e448757173fa2de4d79[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 15:25:46 2020 +0200
+
+    added parcours section responsiveness
+
+[33mcommit fdf116a38c63449a1122b60940ef68675fcd6802[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 15:20:14 2020 +0200
+
+    added parcours section in about page
+
+[33mcommit c6926be3f1642ccdbbb8863912a57abeb971be99[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu May 7 14:24:03 2020 +0200
+
+    updated text on home page
+
+[33mcommit 077240523aa9864ac064e63ce04afdf036c012b0[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed May 6 20:58:41 2020 +0200
+
+    project datas updated
+
+[33mcommit f85f7e7cc6b00ed02c7e61bc8c2ef13a54e89036[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed May 6 13:27:04 2020 +0200
+
+    logo added to navbar
+
+[33mcommit 10d4ea89fd45f3de5e1092bc4a145b289fa13cf8[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Tue May 5 22:00:52 2020 +0200
+
+    added one project to projects
+
+[33mcommit 0d190eeb147f85195f30c4163dc527a199813a29[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Tue May 5 21:28:26 2020 +0200
+
+    github link added to project popups
+
+[33mcommit cc98f3ab0f017853aed88aa00fc37a128c720e5f[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 17:04:15 2020 +0200
+
+    sm update
+
+[33mcommit 438739d988dc97fd7ece605fc99a29dec2dc3432[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 17:02:11 2020 +0200
+
+    sm update
+
+[33mcommit f21fa80301c082f6695ef8f9d07b1268191ef157[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 16:50:13 2020 +0200
+
+    sm update
+
+[33mcommit d9f0e10d76438c91f75e1973e36d1a076cdb531a[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 16:48:19 2020 +0200
+
+    sm update
+
+[33mcommit d77067e853fc89b18b3bd6a1fefdbcae06d51b6d[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 16:45:56 2020 +0200
+
+    sm update
+
+[33mcommit 3c1cf7268f74be9b426759ae38c4231da71ec1ab[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri May 1 16:41:45 2020 +0200
+
+    test netlify form
+
+[33mcommit d754aca0fdeab1623c948262baa4ddcc64fb3749[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 21:24:31 2020 +0200
+
+    sm update
+
+[33mcommit 61602b64c5f4f1cff01dc7b1340a53b6adb10a08[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 21:18:34 2020 +0200
+
+    minor form css update
+
+[33mcommit 41c0d8f89b01f2fd0dbf43876415a592d3976b9a[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 21:16:07 2020 +0200
+
+    netlify form 1
+
+[33mcommit fef4f4fdad9815c612e43d796e344189da08252a[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 21:14:12 2020 +0200
+
+    sm update
+
+[33mcommit 59989a24a67a85a0d8041568e03723b4e1816ed3[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:58:06 2020 +0200
+
+    sm update
+
+[33mcommit edfd44c4333e6e79a8d663882f7a805fd0e66061[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:56:01 2020 +0200
+
+    sm update
+
+[33mcommit 3f459a5ce1039d28e1573b5f932909d5c01c0596[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:54:18 2020 +0200
+
+    sm update
+
+[33mcommit ba7431aca4b4da7f15fba3e0f3ea0fb13c30bdd5[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:52:06 2020 +0200
+
+    sm update
+
+[33mcommit 430321dca24030a1e99cd03c6fc9ec64a19a74d7[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:50:19 2020 +0200
+
+    sm update
+
+[33mcommit 746d82f9599b9b4617023325cfc2d33ab3de6283[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 20:48:05 2020 +0200
+
+    v1 of contact page added
+
+[33mcommit 7a49574e7b0c604c0bca36f9a885dba8caced119[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 17:49:37 2020 +0200
+
+    project section update
+
+[33mcommit 37c02b38a3e833ddf200daac2fafe5286bbf9bf2[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Wed Apr 29 15:41:06 2020 +0200
+
+    link functionnality added to project popup + correction of some tablet responsive bugs
+
+[33mcommit d89c4d1c575d0b13a3a050750f37327e1529fb61[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Tue Apr 28 17:01:16 2020 +0200
+
+    hamburger for mobile navbar update: close on link click
+
+[33mcommit 2a5a2d9e1a7b3f25a150042493e922fca0f04ff7[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Mon Apr 27 13:46:15 2020 +0200
+
+    sm update
+
+[33mcommit 6403b76ad5fe4ff115f1547e4991ad64513545f6[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Mon Apr 27 13:42:33 2020 +0200
+
+    sm update
+
+[33mcommit 9c1b0e8ea2a8c424fdb3ebd23b0a2b4f863a0e08[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Mon Apr 27 13:35:32 2020 +0200
+
+    v2 of projects popup added
+
+[33mcommit 8a581ca57ea8200c6bee86d044d038d096c4506c[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sun Apr 26 15:14:33 2020 +0200
+
+    added v1 of projects popup
+
+[33mcommit e2b218a35782dc9fa6cd0e523020b97eece73162[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 16:29:34 2020 +0200
+
+    sm udapte
+
+[33mcommit 6f6419f5ac2f44163182ae6e4ae911c4af4ae175[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 15:50:42 2020 +0200
+
+    small update
+
+[33mcommit 8c953443314e1841522cb2cec3053be0337aeb8f[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 15:41:12 2020 +0200
+
+    small update
+
+[33mcommit db2f79cc51182d99951fe9b60b1520b6f52f6f65[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 15:37:09 2020 +0200
+
+    small update
+
+[33mcommit 612c98ff6000f3fd51fde01d1c849fe57d5dae17[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 15:33:21 2020 +0200
+
+    added projects page, resonsivness to the page. TODO: add popup info for each project && cut description
+
+[33mcommit b2c2e3cb2deb1fdbae4795620d738f68864cc08f[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Sat Apr 25 12:46:41 2020 +0200
+
+    small update
+
+[33mcommit 2c285ce10f8315c9710f50b412baf57ff94a8b1d[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 18:01:21 2020 +0200
+
+    small update
+
+[33mcommit 97b6955a9d9942aeda6583ba47a79425627d9654[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 15:33:58 2020 +0200
+
+    added responsivness to about page
+
+[33mcommit 3534385d4646ba8fc1dd3528d210301fdc569fc4[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 15:16:10 2020 +0200
+
+    small update
+
+[33mcommit cce2a8b9b528467a5366bdc17f32f57985c85766[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 15:12:57 2020 +0200
+
+    small update
+
+[33mcommit 579448d8501a9bb6650fa306522365a18f2796a8[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 15:09:26 2020 +0200
+
+    small update
+
+[33mcommit c713c09d5345c9914921825b9b286ceb76947953[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Fri Apr 24 15:06:02 2020 +0200
+
+    added responsiveness to home page
+
+[33mcommit e1a5f7b7e764ef4ea950a33677d071e818c39541[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu Apr 23 15:07:11 2020 +0200
+
+    add 'a propos' page
+
+[33mcommit 1621c3a0a19cbe9229eb0a9a0ea8625029323043[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Tue Apr 21 21:45:54 2020 +0200
+
+    original portfolio_v2_frontend commit
+
+[33mcommit b4a1980d538a162dea75ae7ed364b04011fbbf98[m
+Author: Maxime BOUNAAS-FERRET <maxime.bounaas@gmail.com>
+Date:   Thu Apr 16 18:06:45 2020 +0200
+
+    Initialize project using Create React App
