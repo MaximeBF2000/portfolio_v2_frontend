@@ -6,11 +6,11 @@ export default function ContactForm() {
       <input type="hidden" name="form-name" value="contact" />
       <div className="row">
         <div className="input_group name">
-          <input type="text" name="name" className="input" required />
+          <input type="text" name="name" className="input" required placeholder=" " />
           <label htmlFor="name" className="label">Nom</label>
         </div>
         <div className="input_group email">
-          <input type="email" name="email" className="input" required />
+          <input type="email" name="email" className="input" required placeholder=" " />
           <label htmlFor="email" className="label">Email</label>
         </div>
       </div>

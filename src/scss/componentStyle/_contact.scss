@@ -21,7 +21,7 @@ section#contact{
         position: relative;
         width: 100%;
 
-        .input:focus, .input:valid, .textarea:focus, .textarea:valid{
+        .input:focus, .input:not(:placeholder-shown), .textarea:focus, .textarea:valid{
           &+.label{
             transform: translateY(-1.7rem);
           }
