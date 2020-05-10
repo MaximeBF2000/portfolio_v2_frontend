@@ -17,8 +17,10 @@
   }
 }
 
-@media screen and (max-width: $bp-mobile){
+@media screen and (max-width: $bp-tablet){
   .faq{
+    width: 100%;
+
     .answer{
       max-width: 100%;
     }
