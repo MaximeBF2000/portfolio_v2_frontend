@@ -46,12 +46,25 @@ section#skillbars{
       padding-right: 1rem;
     }
   }
+
+  .skills_tags_container{
+    width: 40%;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 1000px){
+@media (max-width: $bp-laptop){
   section#skillbars{
     .grid{
       width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: $bp-tablet){
+  section#skillbars{
+    .skills_tags_container{
+      width: 70%;
     }
   }
 }
@@ -61,6 +74,9 @@ section#skillbars{
     .grid{
       grid-template-columns: 1fr;
       margin-top: 0;
+    }
+    .skills_tags_container{
+      width: 90%;
     }
   }
 }

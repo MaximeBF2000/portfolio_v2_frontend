@@ -11,7 +11,7 @@ export default function Skills_bars() {
       <div className="grid">
         {skills.map(skill => <Skillbar skill={skill} key={Math.random()} />)}
       </div>
-      <div style={{ width: "40%", margin: "0 auto" }}>
+      <div className="skills_tags_container">
         <div className="tags">
           {skills_tags.map(skill_tag => (
             <div className="tag" key={Math.random()}>{skill_tag}</div>
