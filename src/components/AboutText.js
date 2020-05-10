@@ -24,7 +24,7 @@ export default function About() {
           <div className="grid_el text">
             <h2 className="title_deco">A propos de moi</h2>
             <p>
-              Développeur web fullstack autodidacte situé sur Lyon et addicte à l'apprentissage, je met mes compétences au service de vos projets pour vous aider à atteindre tout vos objectifs. Avec une maîtrise appronfondi des technologies web accompagnée par une expérience en marketing et en design, je vous accompagne sur le développement de votre présence sur le web.
+              Développeur web fullstack autodidacte situé sur Lyon et addicte à l'apprentissage, je met mes compétences au service de vos projets pour vous aider à atteindre tout vos objectifs. Avec une maîtrise appronfondie des technologies web accompagnée par une expérience en marketing et en design, je vous accompagne sur le développement de votre présence sur le web.
             </p>
           </div>
         </div>
