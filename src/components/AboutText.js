@@ -24,7 +24,7 @@ export default function About() {
           <div className="grid_el text">
             <h2 className="title_deco">A propos de moi</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ipsa exercitationem nihil temporibus voluptatem error nostrum enim ipsam distinctio! Et facere voluptate ratione quasi eveniet ea nisi odit culpa quidem minus accusamus numquam obcaecati possimus doloribus, voluptatum consequatur delectus beatae quae, voluptatibus id velit aspernatur laborum? Quidem neque suscipit dolor natus, nesciunt animi repellat. Debitis facilis non qui deserunt reprehenderit quasi ex assumenda sunt laboriosam consequatur eligendi, necessitatibus, a dolores, rem recusandae porro voluptas doloribus totam incidunt! In vel culpa iste, laudantium iure eligendi quasi enim repellendus similique, ab perspiciatis accusantium! Nihil quisquam, quis quia vero ad sunt veniam beatae?
+              Développeur web fullstack autodidacte situé sur Lyon et addicte à l'apprentissage, je met mes compétences au service de vos projets pour vous aider à atteindre tout vos objectifs. Avec une maîtrise appronfondi des technologies web accompagnée par une expérience en marketing et en design, je vous accompagne sur le développement de votre présence sur le web.
             </p>
           </div>
         </div>

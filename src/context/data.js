@@ -122,6 +122,18 @@ export const skills = [
   },
 ]
 
+export const skills_tags = [
+  "SEO",
+  "Git",
+  "Responsive design",
+  "Photoshop",
+  "Illustrator",
+  "Python",
+  "Django",
+  "Flask",
+  "SQL"
+]
+
 
 /* PARCOURS ________________________________________________________________________________  */
 export const parcours_step = [
@@ -147,10 +159,10 @@ export const parcours_step = [
 export const faq_content = [
   {
     question: "Pourquoi faire appel à un développeur ?",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi accusamus quis nostrum adipisci eaque, corporis esse sequi iusto architecto eum in tenetur dolore dicta."
+    answer: "Avec le nombre d'outils disponibles actuellement pour créer facilement son site web, on peut se demander si il est vraiment utile de faire appel à un développeur. La réponse à cette question dépend de ce que vous souhaiter créer, voulez vous créer un site web à allure professionel, optimisée et adaptée à tout appareils ? Dans ce cas, il est préférable de passer par un professionel, qui pourra vous apportez ces possibilités en plus de ses conseils."
   },
   {
     question: "Combien ça coûte de créer un site web ?",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quasi accusamus quis nostrum adipisci eaque, corporis esse sequi iusto architecto eum in tenetur dolore dicta."
+    answer: "Le prix d'un site web varie énormément et dépend des fonctionnalités que vous souhaitez apporter à celui-ci. C'est pourquoi je vous invite à me contacter afin que l'on discute de votre projet et que vous puissiez obtenir un devis TOTALEMENT GRATUIT et sans engagements de votre part."
   }
 ]

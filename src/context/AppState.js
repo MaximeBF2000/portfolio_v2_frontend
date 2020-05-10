@@ -1,10 +1,11 @@
 import React, { createContext, useReducer } from 'react'
 import AppReducer from "./AppReducer"
-import { projects, skills, faq_content, parcours_step } from "./data"
+import { projects, skills, skills_tags, faq_content, parcours_step } from "./data"
 
 const initialState = {
   projects,
   skills,
+  skills_tags,
   faq_content,
   parcours_step
 }
@@ -18,6 +19,7 @@ export const GeneralProvider = props => {
     <GeneralContext.Provider value={{
       projects: state.projects,
       skills: state.skills,
+      skills_tags: state.skills_tags,
       faq_content: state.faq_content,
       parcours_step: state.parcours_step
     }}>
