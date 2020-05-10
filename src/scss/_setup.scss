@@ -59,6 +59,16 @@ a, button{
   }
 }
 
+#download_cv_button{
+  cursor: pointer;
+  background-color: $orange;
+  color: $white;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
 .tags{
   margin-top: 2rem;
   display: flex;
