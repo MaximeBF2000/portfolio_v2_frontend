@@ -11,14 +11,38 @@
 
   .popup_exit{
     position: absolute;
-    top: 0;
+    top: .5rem;
     right: 0;
     font-size: 1.2rem;
     padding: 1rem;
     cursor: pointer;
 
     &:hover{
-      color: red;
+      .line, .line::before{
+        background-color: #d12b2b;
+      }
+    }
+
+    .line{
+      $line-width: 18px;
+      position: relative;
+      top: 0;
+      width: $line-width;
+      height: 1px;
+      background-color: $white;
+      transform-origin: center;
+      transform: rotateZ(45deg);
+
+      &::before{
+        position: absolute;
+        content: "";
+        width: $line-width;
+        height: 1px;
+        background-color: $white;
+        top: 0;
+        left: 0;
+        transform: rotateZ(-90deg);
+      }
     }
   }
 
