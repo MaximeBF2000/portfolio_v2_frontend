@@ -127,6 +127,11 @@
 
 @media screen and (max-width: $bp-mobile){
   .project_popup{
+    .popup_exit{
+      .line, .line::before{
+        background-color: #d12b2b;
+      }
+    }
     .box{
       width: 100%;
       height: 100%;
