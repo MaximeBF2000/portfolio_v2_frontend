@@ -6,10 +6,10 @@ export default function ProjectPopup({project, setShowFullProject}) {
 
   return (
     <div className="project_popup">
-      <div className="popup_exit" onClick={() => setShowFullProject(false)}>
-        <div className="line"></div>
-      </div>
       <div className="box">
+        <div className="popup_exit" onClick={() => setShowFullProject(false)}>
+          <div className="line"></div>
+        </div>
         <img src={img || project_defaultImg} alt="project" />
         <div className="text">
           <h3>{name}</h3>
