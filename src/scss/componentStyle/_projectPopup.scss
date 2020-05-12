@@ -45,6 +45,12 @@
           transform: rotateZ(-90deg);
         }
       }
+
+      &:hover{
+        .line, .line::before{
+          background-color: darken(#d12b2b, 10%);
+        }
+      }
     }
   
 
