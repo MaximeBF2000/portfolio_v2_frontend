@@ -12,7 +12,7 @@ import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
 import ContactPage from "./pages/ContactPage"
 
-// const deploy_url = "https://maxime-bf.netlify.app"
+// const deploy_url = "https://maxime-bounaas.netlify.app/"
 
 function App() {
   useEffect(() => {
