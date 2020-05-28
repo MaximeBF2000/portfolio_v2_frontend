@@ -78,25 +78,28 @@
 
         .link{
           cursor: pointer;
-          color: darken($orange, 20%);
-  
-          &:hover{
-            color: $orange;
+          a { 
+            color: darken($orange, 20%);
+            &:hover{
+              color: $orange;
+            }
           }
   
           &.gitLink{
-            color: #185ac4;
-            &:hover{
-              color: lighten(#4287f5, 10%);
+            a { 
+              color: #185ac4;
+              &:hover{
+                color: lighten(#4287f5, 10%);
+              }
             }
           }
         }
 
         .emptyLink{
           cursor: not-allowed;
-          color: darken($grey, 5%);
           font-style: italic;
           a{
+            color: darken($grey, 5%);
             pointer-events: none;
           }
         }
