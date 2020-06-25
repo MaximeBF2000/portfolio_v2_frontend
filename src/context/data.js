@@ -1,6 +1,7 @@
 import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
 import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
+import img_3wcode from "../assets/img_project/3w_code.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
 import img_djangoListApp from "../assets/img_project/django_list_app.jpg"
@@ -29,6 +30,17 @@ export const projects = [
     tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
     link: "https://leaflet-get-coords.netlify.app/",
     github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
+  },
+  {
+    id: uuid(),
+    name: "3W-CODE",
+    description: `
+      Développement frontend et marketing du site de 3w-code, un projet de bootcamp en ligne de développement web.
+    `,
+    img: img_3wcode,
+    tags: ["Frontend", "ReactJS", "SASS", "Marketing"],
+    link: "https://3w-code.netlify.app/",
+    github: ""
   },
   {
     id: uuid(),
