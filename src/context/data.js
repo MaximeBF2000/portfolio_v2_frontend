@@ -112,13 +112,13 @@ export const skills = [
     id: uuid(),
     name: "Javascript",
     color: "#f2df11",
-    level: 88
+    level: 90
   },
   {
     id: uuid(),
     name: "React JS",
     color: "#27DCFA",
-    level: 68
+    level: 75
   },
   {
     id: uuid(),
@@ -130,13 +130,13 @@ export const skills = [
     id: uuid(),
     name: "MongoDB",
     color: "#4DA14B",
-    level: 80
+    level: 85
   },
   {
     id: uuid(),
     name: "SASS",
     color: "slateblue",
-    level: 85,
+    level: 95,
   },
   {
     id: uuid(),
@@ -150,6 +150,7 @@ export const skills_tags = [
   "SEO",
   "Git",
   "Responsive design",
+  "Parcel.js",
   "Photoshop",
   "Illustrator",
   "Python",
