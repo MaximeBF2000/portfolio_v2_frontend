@@ -2,6 +2,7 @@ import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
 import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
+import img_drawIt from "../assets/img_project/draw_it.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
 import img_djangoListApp from "../assets/img_project/django_list_app.jpg"
@@ -41,6 +42,17 @@ export const projects = [
     tags: ["Frontend", "ReactJS", "SASS", "Marketing"],
     link: "https://3w-code.netlify.app/",
     github: ""
+  },
+  {
+    id: uuid(),
+    name: "Draw it !",
+    description: `
+      Création d'une application de dessin simplifié, déposez vos idées et enregistrer les en 3 clicks !
+    `,
+    img: img_drawIt,
+    tags: ["Javascript", "Parcel", "Fast build", "Drawing app"],
+    link: "https://draw-this.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Draw-it"
   },
   {
     id: uuid(),
