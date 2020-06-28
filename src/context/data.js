@@ -47,7 +47,7 @@ export const projects = [
     id: uuid(),
     name: "Draw it !",
     description: `
-      Création d'une application de dessin simplifié, déposez vos idées et enregistrer les en 3 clicks !
+      Création d'une application de dessin simplifié, déposez vos idées et enregistrez les en 3 clicks !
     `,
     img: img_drawIt,
     tags: ["Javascript", "Parcel", "Fast build", "Drawing app"],
