@@ -6,6 +6,10 @@ import ProjectPopup from "./ProjectPopup"
 export default function Project({project}) {
   const [showFullProject, setShowFullProject] = useState(false)
 
+  const shortenString = str => (
+    str.slice(0, 100) + "..."
+  )
+
   return (
     <>
       {showFullProject ? <ProjectPopup project={project} setShowFullProject={setShowFullProject} /> : <></>}
@@ -16,7 +20,7 @@ export default function Project({project}) {
         <div className="text">
           <h3>{project.name}</h3>
           <p>
-            {project.description}
+            {shortenString(project.description)}
           </p>
           <div className="tags">
             {project.tags.map(tag => (
