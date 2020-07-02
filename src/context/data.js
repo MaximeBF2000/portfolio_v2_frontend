@@ -25,11 +25,11 @@ export const projects = [
     id: uuid(),
     name: "Where Am I",
     description: `
-      Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map
+      Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map, ou de transformer une adresse en coordonnées GPS
     `,
     img: img_leafletMap,
-    tags: ["Map API", "Leaflet API", "Javascript", "Fast Build"],
-    link: "https://leaflet-get-coords.netlify.app/",
+    tags: ["Map application", "Leaflet API", "Javascript", "Algolia Places API"],
+    link: "https://where-i-am.netlify.app/",
     github: "https://github.com/MaximeBF2000/Leaflet_GPS_coordinates_getter"
   },
   {
