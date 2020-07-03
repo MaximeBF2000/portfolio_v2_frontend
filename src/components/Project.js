@@ -6,9 +6,10 @@ import ProjectPopup from "./ProjectPopup"
 export default function Project({project}) {
   const [showFullProject, setShowFullProject] = useState(false)
 
-  const shortenString = str => (
-    str.slice(0, 100) + "..."
-  )
+  const shortenString = str => {
+    if(str.length >= 100) return str.slice(0, 100) + "..."
+    else return str
+  }
 
   return (
     <>
