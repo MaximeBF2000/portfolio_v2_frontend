@@ -2,6 +2,7 @@ import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
 import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
+import img_bookey from "../assets/img_project/bookey.png"
 import img_drawIt from "../assets/img_project/draw_it.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
@@ -42,6 +43,18 @@ export const projects = [
     tags: ["Frontend", "ReactJS", "SASS", "Marketing"],
     link: "https://3w-code.netlify.app/",
     github: ""
+  },
+  {
+    id: uuid(),
+    name: "BOOKEY, The pocket librairy",
+    description: `
+      Application de recherche de livres, résumé, autheurs...
+      Possibilité de noter les livres lus et suggestion de livre par intelligence artificiel.
+    `,
+    img: img_bookey,
+    tags: ["ReactJS", "State Management", "SASS"],
+    link: "https://bookey-librairy.netlify.app/",
+    github: "https://github.com/MaximeBF2000/BOOKEY"
   },
   {
     id: uuid(),
