@@ -1,12 +1,12 @@
 import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
 import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
+import img_videozz from "../assets/img_project/videozz.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
 import img_bookey from "../assets/img_project/bookey.png"
 import img_drawIt from "../assets/img_project/draw_it.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
-import img_djangoListApp from "../assets/img_project/django_list_app.jpg"
 import { v4 as uuid } from 'uuid'
 
 /* PROJECTS ________________________________________________________________________________  */
@@ -15,12 +15,23 @@ export const projects = [
     id: uuid(),
     name: "Maxime BOUNAAS-FERRET V2",
     description: `
-    Deuxième version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
+      Deuxième version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
     `,
     img: img_project_moi_v2,
     tags: ["ReactJS", "State managment", "Context API", "SASS"],
     link: "https://maxime-bounaas.netlify.app/",
     github: "https://github.com/MaximeBF2000/portfolio_v2_frontend"
+  },
+  {
+    id: uuid(),
+    name: "VideOzz | Netflix Like Show",
+    description: `
+      Développement design et frontend d'une platforme regroupant une grande quantité de films et séries. Le but de l'application est de fournir un maximum d'informations sur le film ou la série recherchée par l'utilisateur, ainsi que de donner une possibilité de visionner la vidéo en question, sur la plateforme ou par une redirection extérieure.
+    `,
+    img: img_videozz,
+    tags: ["ReactJS", "Web design", "Fast build"],
+    link: "https://videozz.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Videozz"
   },
   {
     id: uuid(),
@@ -99,17 +110,6 @@ export const projects = [
     tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
     link: "https://maxime-bounaasferret-v1.netlify.app/",
     github: "https://github.com/MaximeBF2000/portfolio_vanilla"
-  },
-  {
-    id: uuid(),
-    name: "Planning list",
-    description: `
-      Application permettant de créer des listes de tâches pour rester organisé et productif
-    `,
-    img: img_djangoListApp,
-    tags: ["Python", "Django", "Restful API", "SQL", "SQLite"],
-    link: "",
-    github: "https://github.com/MaximeBF2000/django_list_app"
   }
 ]
 
