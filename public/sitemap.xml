@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <sitemap>
+  <url>
 
     <loc>https://maxime-bounaas.netlify.app/</loc>
 
     <lastmod>2020-07-27T09:10:14+00:00</lastmod>
 
+    <changefreq>yearly</changefreq>
+
     <xhtml:link rel="alternate" hreflang="fr" href="https://maxime-bounaas.netlify.app/" />
 
-  </sitemap>
+  </url>
 
-    <sitemap>
+  <url>
 
     <loc>https://maxime-bounaas.netlify.app/index.html</loc>
 
     <lastmod>2020-07-27T09:10:14+00:00</lastmod>
 
+    <changefreq>yearly</changefreq>
+
     <xhtml:link rel="alternate" hreflang="fr" href="https://maxime-bounaas.netlify.app/index.html" />
 
-  </sitemap>
+  </url>
 
-</sitemapindex>
+</urlset>
