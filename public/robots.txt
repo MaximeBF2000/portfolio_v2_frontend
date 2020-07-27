@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Sitemap: https://maxime-bounaas.netlify.app/index.html
 Disallow:
