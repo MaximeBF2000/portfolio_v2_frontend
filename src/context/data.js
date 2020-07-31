@@ -85,7 +85,7 @@ export const projects = [
       Application de recherches de job pour les développeur (utilisation du MERNstack)
     `,
     img: img_devJobLister,
-    tags: ["Javascript", "MERNstack", "React JS", "Node JS", "MongoDB"],
+    tags: ["Javascript", "MERNstack", "ReactJS", "NodeJS", "MongoDB"],
     link: "",
     github: "https://github.com/MaximeBF2000/devJobLister_MERN"
   },
@@ -96,7 +96,7 @@ export const projects = [
       Librairie javascript open source permettant de créer un texte animé
     `,
     img: img_autowriteJs,
-    tags: ["Javascript", "Open source", "Vanilla JS"],
+    tags: ["Javascript", "Open source", "VanillaJS"],
     link: "https://autowritejs.netlify.app",
     github: "https://github.com/MaximeBF2000/autoWriteJS"
   },
@@ -129,13 +129,13 @@ export const skills = [
   },
   {
     id: uuid(),
-    name: "React JS",
+    name: "ReactJS",
     color: "#27DCFA",
     level: 80
   },
   {
     id: uuid(),
-    name: "Node JS",
+    name: "NodeJS",
     color: "#3e6e14",
     level: 70
   },
@@ -155,7 +155,7 @@ export const skills = [
     id: uuid(),
     name: "Adobe XD",
     color: "#e835e2",
-    level: 40,
+    level: 55,
   },
 ]
 

@@ -6,11 +6,17 @@ export default function ProjectPopup({project, setShowFullProject}) {
   const { name, description, img, tags, link, github } = project
 
   return (
-    <div className="project_popup">
+    <motion.div 
+      className="project_popup"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: .3 }}
+    >
       <motion.div 
         className="box"
         initial={{ y: "100vh" }}
         animate={{ y: 0 }}
+        transition={{ delay: .2 }}
       >
         <div className="popup_exit" onClick={() => setShowFullProject(false)}>
           <div className="line"></div>
@@ -36,6 +42,6 @@ export default function ProjectPopup({project, setShowFullProject}) {
           </div>
         </div>
       </motion.div>
-    </div>
+    </motion.div>
   )
 }
