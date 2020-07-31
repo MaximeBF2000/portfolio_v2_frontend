@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 import project_defaultImg from "../assets/img_project/project_default.jpg"
 
 export default function ProjectPopup({project, setShowFullProject}) {
@@ -6,7 +7,11 @@ export default function ProjectPopup({project, setShowFullProject}) {
 
   return (
     <div className="project_popup">
-      <div className="box">
+      <motion.div 
+        className="box"
+        initial={{ y: "100vh" }}
+        animate={{ y: 0 }}
+      >
         <div className="popup_exit" onClick={() => setShowFullProject(false)}>
           <div className="line"></div>
         </div>
@@ -30,7 +35,7 @@ export default function ProjectPopup({project, setShowFullProject}) {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
