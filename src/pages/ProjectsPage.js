@@ -13,7 +13,8 @@ export default function Projects() {
         <i>Ces informations peuvent être modifiées à tout moment</i>
       </div>
       <div className="grid">
-        {projects.map(project => <Project project={project} key={Math.random()}/>)}
+        {projects.map(project => <Project project={project} key={Math.random()}/>
+        )}
       </div>
     </section>
   )

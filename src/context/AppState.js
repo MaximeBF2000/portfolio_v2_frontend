@@ -1,13 +1,19 @@
 import React, { createContext, useReducer } from 'react'
 import AppReducer from "./AppReducer"
-import { projects, skills, skills_tags, faq_content, parcours_step } from "./data"
+import { 
+  projects, 
+  skills, 
+  skills_tags, 
+  faq_content, 
+  parcours_step 
+} from "./data"
 
-const initialState = {
-  projects,
-  skills,
-  skills_tags,
-  faq_content,
-  parcours_step
+const initialState = { 
+  projects, 
+  skills, 
+  skills_tags, 
+  faq_content, 
+  parcours_step 
 }
 
 export const GeneralContext = createContext(initialState)

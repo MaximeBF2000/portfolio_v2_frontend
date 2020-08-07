@@ -3,6 +3,7 @@ import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_videozz from "../assets/img_project/videozz.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
+import img_providus from "../assets/img_project/providus.png"
 import img_bookey from "../assets/img_project/bookey.png"
 import img_drawIt from "../assets/img_project/draw_it.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
@@ -54,6 +55,17 @@ export const projects = [
     tags: ["Frontend", "ReactJS", "SASS", "Marketing"],
     link: "https://3w-code.netlify.app/",
     github: ""
+  },
+  {
+    id: uuid(),
+    name: "Providus | Online shopping made easy",
+    description: `
+      Réalisation d'une plateforme ecommerce pour apprendre à manipuler Redux.js et Typescript (PS: Plateforme non fonctionnelle)
+    `,
+    img: img_providus,
+    tags: ["ReactJS", "ReduxJS", "Typescript", "SASS"],
+    link: "https://providus.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Providus_Fake_EcommStore_redux_typescript"
   },
   {
     id: uuid(),
@@ -177,17 +189,17 @@ export const skills_tags = [
 export const parcours_step = [
   {
     date: "2019-2020",
-    title: "Formation Développeur web en ligne",
+    name: "Formation Développeur web en ligne",
     description: "Apprentissage en ligne du développement web fullstack en profondeur avec Javascript, ReactJS, NodeJS et MongoDB. Développement de projets et auto apprentissage + expérience en freelance"
   },
   {
     date: "2018-2019",
-    title: "Développeur Frontend / Marketing - Foodtrucks Online",
+    name: "Développeur Frontend / Marketing - Foodtrucks Online",
     description: "Développeur frontend pour le site web / application foodtrucksOnline. Apprentissage de la gestion de projet en équipe, de la création et gestion d'un évènement, du préprocesseur CSS SASS, et d'outils de travails tel que git, github, trello..."
   },
   {
     date: "2018-2019",
-    title: "Bachelor Informatique général - Ynov Lyon",
+    name: "Bachelor Informatique général - Ynov Lyon",
     description: "1ère année de bachelor informatique général à Ynov Lyon. Découverte du développement web, apprentissage de la méthode de travail SCRUM, de la gestion de projets et réalisations de 2 applications."
   }
 ]

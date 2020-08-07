@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import CV from "../assets/CV_mbf.png"
 
 import AboutText from "../components/AboutText"
@@ -6,7 +6,9 @@ import Skillbars from "../components/Skillbars"
 import Parcours from "../components/Parcours"
 
 
+
 export default function AboutPage() {
+
   return (
     <>
       <AboutText />

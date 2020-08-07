@@ -37,7 +37,7 @@ export default function ProjectPopup({project, setShowFullProject}) {
           </div>
           <div className="tags">
             {tags.map(tag => (
-              <div className="tag" title={`tag: ${tag}`}>{tag}</div>
+              <div className="tag" title={`tag: ${tag}`} key={tag}>{tag}</div>
             ))}
           </div>
         </div>

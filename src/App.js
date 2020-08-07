@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { GeneralProvider } from "./context/AppState"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // Components imports
 
@@ -14,14 +13,15 @@ import ContactPage from "./pages/ContactPage"
 
 // const deploy_url = "https://maxime-bounaas.netlify.app/"
 
+
 function App() {
+
   useEffect(() => {
     AOS.init()
   }, [])
 
 
   return (
-    <GeneralProvider>
     <Router>
       <Nav />
       <Switch>
@@ -40,7 +40,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
-    </GeneralProvider>
   )
 }
 
