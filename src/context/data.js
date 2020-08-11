@@ -147,6 +147,12 @@ export const skills = [
   },
   {
     id: uuid(),
+    name: "ReduxJS",
+    color: "#6e1bf5",
+    level: 55
+  },
+  {
+    id: uuid(),
     name: "NodeJS",
     color: "#3e6e14",
     level: 70
@@ -172,16 +178,20 @@ export const skills = [
 ]
 
 export const skills_tags = [
-  "SEO",
   "Git",
   "Responsive design",
-  "Parcel.js",
+  "Typescript",
+  "React Hooks",
+  "Context API",
+  "Python",
+  "SEO",
+  "SEM",
+  "Django",
+  "Firebase",
   "Photoshop",
   "Illustrator",
-  "Python",
-  "Django",
-  "Flask",
-  "SQL"
+  "Premiere Pro",
+  "Digital marketing"
 ]
 
 
