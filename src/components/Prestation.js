@@ -16,7 +16,7 @@ export default function Prestation() {
         </div>
         <div className="grid_el">
           <FaDatabase className="icon"/>
-          <h3>Développement fullstack</h3>
+          <h3>Développement Front-End</h3>
           <p>
             Faisons de votre site web une plateforme performante, moderne et maintenable dans le temps avec des technologies actuelles et efficaces. Votre site d'aujourd'hui, mais aussi de demain.
           </p>
