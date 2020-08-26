@@ -3,6 +3,7 @@ import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_videozz from "../assets/img_project/videozz.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
+import img_paretoConstats from "../assets/img_project/pareto_constats.png"
 import img_providus from "../assets/img_project/providus.png"
 import img_bookey from "../assets/img_project/bookey.png"
 import img_drawIt from "../assets/img_project/draw_it.png"
@@ -55,6 +56,17 @@ export const projects = [
     tags: ["Frontend", "ReactJS", "SASS", "Marketing"],
     link: "https://3w-code.netlify.app/",
     github: ""
+  },
+  {
+    id: uuid(),
+    name: "Pareto's Constats",
+    description: `
+      Service permettant de faire des constats de rapport de productivité. L'application est basée sur la loi de Pareto, qui indique que 80% des résultats sont provoquées par 20% des entrées. L'application permet de créer, modifier ou supprimer des constats et de les visualisés sur des graphiques.
+    `,
+    img: img_paretoConstats,
+    tags: ["Google Firebase", "ChartJS", "ReactJS", "Context API", "Saas"],
+    link: "https://pareto-constats.netlify.app/",
+    github: "https://github.com/MaximeBF2000/ParetoConstats__web"
   },
   {
     id: uuid(),
