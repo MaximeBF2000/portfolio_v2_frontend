@@ -1,12 +1,13 @@
 import img_project_moi_v2 from "../assets/img_project/vitrine_moi_v2.png"
 import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_videozz from "../assets/img_project/videozz.png"
+import img_rent4aWeek from "../assets/img_project/rent4aWeek.png"
+import img_siteVitrineAntoinePavy from "../assets/img_project/siteVitrine_antoinePavy.png"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
 import img_paretoConstats from "../assets/img_project/pareto_constats.png"
 import img_providus from "../assets/img_project/providus.png"
 import img_bookey from "../assets/img_project/bookey.png"
-import img_drawIt from "../assets/img_project/draw_it.png"
 import img_devJobLister from "../assets/img_project/devJobLister.jpg"
 import img_leafletMap from "../assets/img_project/leafletMap.png"
 import { v4 as uuid } from 'uuid'
@@ -34,6 +35,28 @@ export const projects = [
     tags: ["ReactJS", "Web design", "Fast build"],
     link: "https://videozz.netlify.app/",
     github: "https://github.com/MaximeBF2000/Videozz"
+  },
+  {
+    id: uuid(),
+    name: "Rent4aWeek | Luxurious cars",
+    description: `
+      Rent4aWeek est une plateforme ayant pour objectif de mettre en relation des propriétaires de voitures de luxes et des personnes cherchant à en louer une pour un temps court. La plateforme traitera les nouvelles voitures pour les classer par marques, qualité, préférences... Afin d'offrir une expérience unique et simple aux utilisateurs.
+    `,
+    img: img_rent4aWeek,
+    tags: ["ReactJS", "Google Firebase", "Web design", "UI / UX"],
+    link: "https://rent4aweek.netlify.app/",
+    github: "https://github.com/MaximeBF2000/Rent4aWeek"
+  },
+  {
+    id: uuid(),
+    name: "Site vitrine | Antoine PAVY",
+    description: `
+      Site vitrine d'Antoine PAVY, commercial et développeur de stratégie marketing, composé d'une landing page et d'une about page.
+    `,
+    img: img_siteVitrineAntoinePavy,
+    tags: ["SCSS", "Flexbox", "React-router"],
+    link: "https://antoine-pavy.netlify.app/",
+    github: ""
   },
   {
     id: uuid(),
@@ -70,7 +93,7 @@ export const projects = [
   },
   {
     id: uuid(),
-    name: "Providus | Online shopping made easy",
+    name: "Providus",
     description: `
       Réalisation d'une plateforme ecommerce pour apprendre à manipuler Redux.js et Typescript (PS: Plateforme non fonctionnelle)
     `,
@@ -93,14 +116,14 @@ export const projects = [
   },
   {
     id: uuid(),
-    name: "Draw it !",
+    name: "Maxime BOUNAAS-FERRET V1",
     description: `
-      Création d'une application de dessin simplifié, déposez vos idées et enregistrez les en 3 clicks !
+      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
     `,
-    img: img_drawIt,
-    tags: ["Javascript", "Parcel", "Fast build", "Drawing app"],
-    link: "https://draw-this.netlify.app/",
-    github: "https://github.com/MaximeBF2000/Draw-it"
+    img: img_project_moi_v1,
+    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
+    link: "https://maxime-bounaasferret-v1.netlify.app/",
+    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
   },
   {
     id: uuid(),
@@ -123,17 +146,6 @@ export const projects = [
     tags: ["Javascript", "Open source", "VanillaJS"],
     link: "https://autowritejs.netlify.app",
     github: "https://github.com/MaximeBF2000/autoWriteJS"
-  },
-  {
-    id: uuid(),
-    name: "Maxime BOUNAAS-FERRET V1",
-    description: `
-      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
-    `,
-    img: img_project_moi_v1,
-    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
-    link: "https://maxime-bounaasferret-v1.netlify.app/",
-    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
   }
 ]
 
@@ -143,25 +155,25 @@ export const skills = [
     id: uuid(),
     name: "HTML5 / CSS3",
     color: "#2D7DD2",
-    level: 90
+    level: 95
   },
   {
     id: uuid(),
     name: "Javascript",
     color: "#f2df11",
-    level: 90
+    level: 95
   },
   {
     id: uuid(),
     name: "ReactJS",
     color: "#27DCFA",
-    level: 80
+    level: 90
   },
   {
     id: uuid(),
     name: "ReduxJS",
     color: "#6e1bf5",
-    level: 55
+    level: 65
   },
   {
     id: uuid(),
@@ -177,7 +189,7 @@ export const skills = [
   },
   {
     id: uuid(),
-    name: "SASS",
+    name: "SCSS",
     color: "slateblue",
     level: 95,
   },
@@ -211,8 +223,13 @@ export const skills_tags = [
 export const parcours_step = [
   {
     date: "2019-2020",
+    name: "Développeur Javascript / React.js Freelance",
+    description: "Développement de nombreux projets en freelance & en continuant mon apprentissage de nouvelle technologies et méthodes de travail. En cours de création d'une entreprise de services digitaux."
+  },
+  {
+    date: "2019-2020",
     name: "Formation Développeur web en ligne",
-    description: "Apprentissage en ligne du développement web fullstack en profondeur avec Javascript, ReactJS, NodeJS et MongoDB. Développement de projets et auto apprentissage + expérience en freelance"
+    description: "Apprentissage en ligne du développement web fullstack en profondeur avec Javascript, ReactJS, NodeJS et MongoDB. Développement de projets et auto apprentissage + expérience en entreprenariat dans le domaine du e-commerce."
   },
   {
     date: "2018-2019",
