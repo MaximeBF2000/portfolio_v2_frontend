@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import logo from "../assets/logo_mbf_v1.svg"
 
-
 export default function Nav() {
   const [navShow, setNavShow] = useState(false)
   const unshowNav = () => {

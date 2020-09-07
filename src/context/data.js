@@ -3,6 +3,7 @@ import img_project_moi_v1 from "../assets/img_project/vitrine_moi_v1.png"
 import img_videozz from "../assets/img_project/videozz.png"
 import img_rent4aWeek from "../assets/img_project/rent4aWeek.png"
 import img_siteVitrineAntoinePavy from "../assets/img_project/siteVitrine_antoinePavy.png"
+import img_foodtruckOnline from "../assets/img_project/foodtruckOnline.jpg"
 import img_autowriteJs from "../assets/img_project/autowrite_js.png"
 import img_3wcode from "../assets/img_project/3w_code.png"
 import img_paretoConstats from "../assets/img_project/pareto_constats.png"
@@ -60,6 +61,17 @@ export const projects = [
   },
   {
     id: uuid(),
+    name: "Foodtruck Online",
+    description: `
+      Participation au développement du site web de Foodtruck Online, un projet ayant pour objectif de mettre en relation des organisateurs d'événement et des foodtrucks. Scrum Team composé de 2 développeur front-end, 3 back-end, 1 designer et 2 exécutif marketing. (ps: le projet à été abandonné après 1 an)
+    `,
+    img: img_foodtruckOnline,
+    tags: ["HTML5", "CSS3", "SASS", "Javascript", "SCRUM"],
+    link: "https://www.facebook.com/Foodtruckonline-466504170419269/?ref=page_internal",
+    github: ""
+  },
+  {
+    id: uuid(),
     name: "Where Am I",
     description: `
       Application permettant d'obtenir les coordonées GPS de n'importe quel endroit sur une map, ou de transformer une adresse en coordonnées GPS
@@ -93,6 +105,17 @@ export const projects = [
   },
   {
     id: uuid(),
+    name: "Maxime BOUNAAS-FERRET V1",
+    description: `
+      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
+    `,
+    img: img_project_moi_v1,
+    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
+    link: "https://maxime-bounaasferret-v1.netlify.app/",
+    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
+  },
+  {
+    id: uuid(),
     name: "Providus",
     description: `
       Réalisation d'une plateforme ecommerce pour apprendre à manipuler Redux.js et Typescript (PS: Plateforme non fonctionnelle)
@@ -113,17 +136,6 @@ export const projects = [
     tags: ["ReactJS", "State Management", "SASS"],
     link: "https://bookey-librairy.netlify.app/",
     github: "https://github.com/MaximeBF2000/BOOKEY"
-  },
-  {
-    id: uuid(),
-    name: "Maxime BOUNAAS-FERRET V1",
-    description: `
-      Première version du site vitrine de Maxime BOUNAAS-FERRET, freelance en développement web
-    `,
-    img: img_project_moi_v1,
-    tags: ["HTML5", "CSS3", "SASS", "Vanilla JS", "Adobe XD"],
-    link: "https://maxime-bounaasferret-v1.netlify.app/",
-    github: "https://github.com/MaximeBF2000/portfolio_vanilla"
   },
   {
     id: uuid(),
