@@ -265,5 +265,9 @@ export const faq_content = [
   {
     question: "Combien ça coûte de créer un site web ?",
     answer: "Le prix d'un site web varie énormément et dépend des fonctionnalités que vous souhaitez apporter à celui-ci. C'est pourquoi je vous invite à me contacter afin que l'on discute de votre projet et que vous puissiez obtenir un devis TOTALEMENT GRATUIT et sans engagements de votre part."
+  },
+  {
+    question: "Comment choisir le bon freelance pour vous aider dans vos projets ?",
+    answer: "Trouver un indépendant capable de correctement remplir vos attentes peut parfois être compliqué et vous pourriez très rapidement vous rendre compte que ça ne matche pas. C'est pourquoi je vous conseille de contacter plusieurs indépendants, d'échanger sur votre projet et de prendre une décision après cela. Dans mon cas, je vous offre une période d'essai ainsi qu'une garanti satisfait ou remboursé."
   }
 ]

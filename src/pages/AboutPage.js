@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import CV from "../assets/CV_mbf.png"
+import React from 'react'
+import CV from "../assets/CV_mbf.pdf"
 
 import AboutText from "../components/AboutText"
 import Skillbars from "../components/Skillbars"

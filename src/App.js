@@ -9,7 +9,10 @@ import Nav from "./components/Nav"
 import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import ProjectsPage from "./pages/ProjectsPage"
+import BlogPage from "./pages/BlogPage"
+import ArticlePage from "./pages/ArticlePage"
 import ContactPage from "./pages/ContactPage"
+// import EditArticles from './pages/EditArticles'
 
 // const deploy_url = "https://maxime-bounaas.netlify.app/"
 
@@ -30,6 +33,12 @@ function App() {
         </Route>
         <Route exact path="/projects">
           <ProjectsPage />
+        </Route>
+        <Route exact path="/articles">
+          <BlogPage />
+        </Route>
+        <Route exact path="/articles/:title">
+          <ArticlePage />
         </Route>
         <Route exact path="/contact">
           <ContactPage />

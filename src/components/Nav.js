@@ -20,6 +20,7 @@ export default function Nav() {
         <Link to="/" onClick={unshowNav}><li>Accueil</li></Link>
         <Link to="/about" onClick={unshowNav}><li>A propos</li></Link>
         <Link to="/projects" onClick={unshowNav}><li>Réalisations</li></Link>
+        <Link to="/articles" onClick={unshowNav}><li>Articles</li></Link>
         <Link to="/contact" onClick={unshowNav}><li>Contact</li></Link>
       </ul>
       <div className="hamburger" onClick={() => setNavShow(!navShow)}>

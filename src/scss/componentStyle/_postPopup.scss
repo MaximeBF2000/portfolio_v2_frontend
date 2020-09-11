@@ -1,0 +1,72 @@
+.postPopup{
+  z-index: 1000;
+  position: fixed;
+  background-color: rgba($black, .7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @extend .center;
+  flex-direction: row;
+
+  .actionBox{
+    @extend .container;
+    background-color: $white;
+    width: 45%;
+    height: 98%;
+    padding: .5rem;
+    overflow: scroll;
+
+
+    .formControl{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 2rem;
+
+      label{
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      input, textarea{
+        padding: .5rem;
+      }
+    }
+
+    .deleteBtn{
+      cursor: pointer;
+      border: dashed 1px #ca0000;
+      color: #ca0000;
+      padding: .5rem 1rem;
+      margin-right: 5rem;
+    }
+
+    button[type="submit"]{
+      cursor: pointer;
+      background-color: $orange;
+      color: $white;
+      padding: .5rem 1rem;
+    }
+  }
+
+  .previewBox{
+    background-color: $white;
+    margin-left: 1rem;
+    width: 45%;
+    height: 98%;
+    padding: 2rem;
+    overflow: scroll;
+
+    .previewTitle{
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    
+    ul{
+      list-style: initial;
+      transform: translateX(20px);
+    }
+  }
+}

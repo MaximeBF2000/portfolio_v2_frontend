@@ -1,19 +1,40 @@
 .faq{
-  width: 60%;
   padding: 0 2rem;
+  margin-bottom: 1rem;
+
+  h2{
+    margin-bottom: .5rem;
+  }
 
   .question{
+    position: relative;
     cursor: pointer;
-    font-weight: bold;
-    margin-bottom: 5px;
+    background-color: darken($grey, 5%);
+    padding: .3rem;
 
     ::selection{
       background: transparent;
     }
+
+    .arrow{
+      position: absolute;
+      pointer-events: none;
+      font-size: 1.5rem;
+      top: 50%;
+      right: 1rem;
+      transform: translateY(-50%);
+    }
+
+    &.open{
+      .arrow{
+        transform: translateY(-50%) rotateZ(180deg);
+      }
+    }
   }
   .answer{
-    margin-bottom: 1rem;
-    font-size: .9rem;
+    font-size: .8rem;
+    background-color: $grey;
+    padding: .6rem .3rem;
   }
 }
 
@@ -24,6 +45,17 @@
 
     .answer{
       max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile){
+  .faq{
+    .question{
+      padding-right: 2rem;
+      .arrow{
+        right: .5rem;
+      }
     }
   }
 }

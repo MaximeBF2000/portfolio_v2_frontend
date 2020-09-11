@@ -1,12 +1,15 @@
 import React, { useContext } from 'react'
 import { GeneralContext } from "../context/AppState"
+import { MdArrowDropDown } from "react-icons/md"
 
 export default function Faq() {
   const { faq_content } = useContext(GeneralContext)
 
   const showAnswer = e => {
-    const answer = e.target.nextSibling
+    const question = e.target
+    const answer = question.nextSibling
     answer.classList.toggle("none")
+    question.classList.toggle("open")
   }
 
   return (
@@ -16,6 +19,7 @@ export default function Faq() {
         <div className="question_answer" key={Math.random()}>
           <div className="question" onClick={showAnswer}>
             {q.question}
+            <MdArrowDropDown className="arrow" />
           </div>
           <div className="answer none">
             {q.answer}

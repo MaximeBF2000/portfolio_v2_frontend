@@ -5,10 +5,8 @@ import './index.scss'
 import App from './App'
 
 ReactDOM.render(
-  <React.StrictMode>
     <GeneralProvider>
       <App />
-    </GeneralProvider>
-  </React.StrictMode>,
+    </GeneralProvider>,
   document.getElementById('root')
 )
