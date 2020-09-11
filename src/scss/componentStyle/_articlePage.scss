@@ -50,11 +50,11 @@
 
         ul{
           list-style: initial;
-          transform: translateX(50px);
+          padding-left: 50px;
           margin-top: .4rem;
         }
         ol{
-          transform: translateX(50px);
+          padding-left: 50px;
           margin-top: .4rem;
         }
 
@@ -103,15 +103,6 @@
       .backBtn{
         top: ($navHeight - 1.7rem) + 0.5rem;
         right: .5rem;
-      }
-
-      .content{
-        ul{
-          transform: translateX(30px);
-        }
-        ol{
-          transform: translateX(30px);
-        }
       }
     }
   }
