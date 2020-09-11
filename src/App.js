@@ -37,7 +37,7 @@ function App() {
         <Route exact path="/articles">
           <BlogPage />
         </Route>
-        <Route exact path="/articles/:id">
+        <Route exact path="/articles/:title">
           <ArticlePage />
         </Route>
         <Route exact path="/contact">
