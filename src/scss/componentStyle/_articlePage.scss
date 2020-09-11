@@ -104,14 +104,17 @@
         top: ($navHeight - 1.7rem) + 0.5rem;
         right: .5rem;
       }
-      .content{
-        ul{
-          padding-left: 20px;
-        }
-        ol{
-          padding-left: 20px;
+      .article_content{
+        .content{
+          ul{
+            padding-left: 20px;
+          }
+          ol{
+            padding-left: 20px;
+          }
         }
       }
+      
     }
   }
 }

@@ -15,9 +15,7 @@ export default function Article({ article }) {
   const url = article.title.split(" ").map(el => el[0].toUpperCase()+el.slice(1, el.length)).join("").replace(/[^a-z0-9]/gi,'')
 
   return (
-    <Link to={`/articles/${url}`} onClick={() => {
-      console.log(new Date(article.createdAt.toString()))
-    }}>
+    <Link to={`/articles/${url}`}>
       <div className="article">
         <div className="img">
           <img src={imageUrl} onError={e => setimageUrl(defaultArticlePic)} alt="article" />
