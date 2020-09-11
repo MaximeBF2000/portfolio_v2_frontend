@@ -13,7 +13,7 @@ export default function Article({ article }) {
   }
 
   return (
-    <Link to={`/articles/${article.title.replaceAll(" ", "_")}`} onClick={() => {
+    <Link to={`/articles/${article.id}`} onClick={() => {
       console.log(new Date(article.createdAt.toString()))
     }}>
       <div className="article">

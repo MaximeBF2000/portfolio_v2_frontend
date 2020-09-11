@@ -7,11 +7,6 @@
   padding: $paddingPage;
   padding-top: $navHeight + 2rem;
 
-  ul{
-    list-style: initial;
-    transform: translateX(25px);
-  }
-
   .article{
     box-shadow: 2px 2px 5px $grey;
 
@@ -51,6 +46,16 @@
           width: 100%;
           padding: .5rem;
           margin: .5rem 0;
+        }
+
+        ul{
+          list-style: initial;
+          transform: translateX(50px);
+          margin-top: .4rem;
+        }
+        ol{
+          transform: translateX(50px);
+          margin-top: .4rem;
         }
 
         a{

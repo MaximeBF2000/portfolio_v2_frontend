@@ -7,13 +7,13 @@ import defaultArticlePic from "../assets/default_articlePic.jpg"
 import EditArticle from '../components/EditArticle'
 
 export default function ArticlePage() {
-  const { title } = useParams()
+  const { id } = useParams()
   const { docs } = useFirestore("articles")
 
   const [admin, setAdmin] = useState(false)
   const [showEditPostPopup, setShowEditPostPopup] = useState(false)
 
-  const article = docs.find(article => article.title === title.replaceAll("_", " "))
+  const article = docs.find(article => article.id === id)
   const [isValidImg, setIsValidImg] = useState(true)
 
 
