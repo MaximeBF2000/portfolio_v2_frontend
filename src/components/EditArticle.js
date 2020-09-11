@@ -13,8 +13,6 @@ export default function EditArticle({ close, article }) {
 
   const { url } = useFireStorage(newImageFile)
 
-  const handleClose = e => { if(e.target.classList.contains("postPopup")) close() }
-
   const handleEditorChange = value => setNewContent(value)
 
   const handleSubmit = e => {
@@ -39,7 +37,7 @@ export default function EditArticle({ close, article }) {
   }
 
   return createPortal(
-    <div className="postPopup" onClick={handleClose}>
+    <div className="postPopup">
       <form className="actionBox" onSubmit={handleSubmit}>
         <div className="formControl">
           <label htmlFor="image">Image</label>
@@ -67,6 +65,7 @@ export default function EditArticle({ close, article }) {
           {ReactHtmlParser(newContent.toString("html"))}
         </div>
       </div>
+      <div className="closeBtn" onClick={() => close()}>❌</div>
     </div>,
     document.querySelector("#portalRoot")
   )

@@ -15,10 +15,6 @@ export default function AddArticle({ close }) {
 
   const { url } = useFirestorage(imageFile)
 
-  const handleClose = e => {
-    if(e.target.classList.contains("postPopup")) close()
-  }
-
   const handleChange = (e, setValue) => {
     setValue(e.target.value)
   }
@@ -40,7 +36,7 @@ export default function AddArticle({ close }) {
   }
 
   return ReactDom.createPortal(
-    <div className="postPopup" onClick={handleClose}>
+    <div className="postPopup">
       <form className="actionBox" onSubmit={handleSubmit}>
         <div className="formControl">
           <label htmlFor="image">Image</label>
@@ -68,6 +64,7 @@ export default function AddArticle({ close }) {
           {ReactHtmlParser(content.toString("html"))}
         </div>
       </div>
+      <div className="closeBtn" onClick={() => close()}>❌</div>
     </div>,
     document.querySelector("#portalRoot")
   )

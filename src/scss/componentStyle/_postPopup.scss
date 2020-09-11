@@ -9,6 +9,15 @@
   @extend .center;
   flex-direction: row;
 
+  .closeBtn{
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: $black;
+    border-radius: .25rem;
+  }
+
   .actionBox{
     @extend .container;
     background-color: $white;
