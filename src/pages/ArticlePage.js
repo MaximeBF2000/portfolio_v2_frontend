@@ -5,6 +5,7 @@ import useFirestore from "../modules/useFirestore"
 import { useParams, Link } from "react-router-dom"
 import defaultArticlePic from "../assets/default_articlePic.jpg"
 import EditArticle from '../components/EditArticle'
+import transformTitleToUrl from "../modules/articleUrl"
 
 export default function ArticlePage() {
   const { title } = useParams()
@@ -13,7 +14,7 @@ export default function ArticlePage() {
   const [admin, setAdmin] = useState(false)
   const [showEditPostPopup, setShowEditPostPopup] = useState(false)
 
-  const article = docs.find(article => article.title.split(" ").map(el => el[0].toUpperCase()+el.slice(1, el.length)).join("").replace(/[^a-z0-9]/gi,'').toLowerCase() === title.toLowerCase())
+  const article = docs.find(article => transformTitleToUrl(article.title).toLowerCase() === title.toLowerCase())
   
   const [isValidImg, setIsValidImg] = useState(true)
 

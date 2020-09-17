@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ReactHtmlParser from "react-html-parser"
 import { Link } from "react-router-dom"
 import defaultArticlePic from "../assets/default_articlePic.jpg"
+import transformTitleToUrl from "../modules/articleUrl"
 
 
 export default function Article({ article }) {
@@ -12,7 +13,8 @@ export default function Article({ article }) {
     return content
   }
 
-  const url = article.title.split(" ").map(el => el[0].toUpperCase()+el.slice(1, el.length)).join("").replace(/[^a-z0-9]/gi,'')
+  const url = transformTitleToUrl(article.title)
+
 
   return (
     <Link to={`/articles/${url}`}>
